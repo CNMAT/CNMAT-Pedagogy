@@ -1,0 +1,36 @@
+{
+    "classic harmonic spectrums": {
+        "0": {
+            "label": "with Max objects",
+            "file": "timbre_classic-harmonic-waveforms.maxpat"
+        },
+        "1": {
+            "label": "with harmonics~",
+            "file": "timbre_harmonic-waveforms_with-harmonics~.maxpat"
+        },
+        "2": {
+            "label": "with o.harmonics.shape~",
+            "file": "timbre_harmonic-waveforms_with-o.harmonics.shape~.maxpat"
+        }
+    },
+    "amp formula": {
+        "0": {
+            "label": "exponential curvature",
+            "file": "timbre_amp-exponential-curve-formula.maxpat"
+        },
+        "1": {
+            "label": "...in odot",
+            "file": "timbre_amp-exponential-curve-in-odot.maxpat"
+        },
+        "2": {
+            "label": "...in Max",
+            "file": "timbre_amp-exponential-curve-in-max.maxpat"
+        }
+    },
+    "amps via GUI": {
+        "0": {
+            "label": "multislider, by-hand",
+            "file": "timbre_amp-via-GUI.maxpat"
+        }
+    }
+}

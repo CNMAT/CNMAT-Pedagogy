@@ -1,0 +1,44 @@
+{
+    "simple filters": {
+        "0": {
+            "label": "onepole~ (lowpass)",
+            "file": "subtractive-synth_onepole~.maxpat"
+        },
+        "1": {
+            "label": "lores~ (lowpass)",
+            "file": "subtractive-synth_lores~.maxpat"
+        },
+        "2": {
+            "label": "(highpass)",
+            "file": "subtractive-synth_highpass-simple.maxpat"
+        },
+        "3": {
+            "label": "reson~ (resonant)",
+            "file": "subtractive-synth_reson~.maxpat"
+        }
+    },
+    "variable type filters": {
+        "0": {
+            "label": "svf~",
+            "file": "subtractive-synth_svf~.maxpat"
+        },
+        "1": {
+            "label": "biquad~",
+            "file": "subtractive-synth_biquad~.maxpat"
+        },
+        "2": {
+            "label": "cascade~",
+            "file": "subtractive-synth_cascade~.maxpat"
+        },
+        "3": {
+            "label": "cnmat.o.biquad~",
+            "file": "cnmat.o.biquad~.maxhelp"
+        }
+    },
+    "examples": {
+        "0": {
+            "label": "synth drum via filtered noise",
+            "file": "subtractive-synth_ex_biquad-drum.maxpat"
+        }
+    }
+}

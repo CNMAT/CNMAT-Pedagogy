@@ -1,0 +1,32 @@
+{
+    "concepts": {
+        "0": {
+            "label": "what is MIDI?",
+            "file": "MIDI_what-is-it.maxpat"
+        },
+
+        "1": {
+            "label": "MIDI to frequency, or vice versa",
+            "file": "MIDI_mtof-ftom.maxpat"
+        },
+
+        "2": {
+            "label": "connecting a MIDI controller",
+            "file": "MIDI_connecting-controllers.maxpat"
+        }
+    },
+    "engines": {
+        "0": {
+            "label": "midi2pitch",
+            "file": "midi2pitch.maxhelp"
+        },
+        "1": {
+            "label": "pitch2midi",
+            "file": "pitch2midi.maxhelp"
+        },
+        "2": {
+            "label": "midivel2gain",
+            "file": "midivel2gain.maxhelp"
+        }
+    }
+}

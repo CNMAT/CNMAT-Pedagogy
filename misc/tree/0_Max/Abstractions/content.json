@@ -1,0 +1,32 @@
+{
+    "intro": {
+        "0": {
+            "label": "what, why, when?",
+            "file": "abstractions_intro.maxpat"
+        }
+    },
+    "encapsulation": {
+        "0": {
+            "label": "subpatchers (encapsulation)",
+            "file": "abstractions_subpatchers.maxpat"
+        }
+    },
+    "abstraction": {
+        "0": {
+            "label": "basic",
+            "file": "abstractions_basic.maxpat"
+        },
+        "1": {
+            "label": "# variables",
+            "file": "abstractions_patcherargs.maxpat"
+        },
+        "2": {
+            "label": "odot addrs & o.route",
+            "file": "abstractions_o.route.maxpat"
+        },
+        "3": {
+            "label": "poly~",
+            "syslink": "/MSP/poly~"
+        }
+    }
+}

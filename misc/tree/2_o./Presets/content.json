@@ -1,0 +1,30 @@
+﻿{
+    "core methods": {
+        "0": {
+            "label": "different bundles",
+            "file": "presets_different-odot-bundles.maxpat"
+        },
+        "1": {
+            "label": "with o.gui.attach",
+            "file": "presets_with-o.gui.attach.maxpat"
+        }
+    },
+    "odot with dict": {
+        "0": {
+            "label": "basic",
+            "file": "presets_odot-with-dict_basic.maxpat"
+        },
+        "1": {
+            "label": "add & remove",
+            "file": "presets_odot-with-dict_add&remove.maxpat"
+        },
+        "2": {
+            "label": "lookups",
+            "file": "presets_odot-with-dict_lookup.maxpat"
+        },
+        "3": {
+            "label": "hierarchical",
+            "file": "presets_dict-hierarchical.maxpat"
+        }
+    }
+}

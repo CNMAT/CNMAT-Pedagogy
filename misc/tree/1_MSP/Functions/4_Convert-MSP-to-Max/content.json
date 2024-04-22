@@ -1,0 +1,8 @@
+{
+    "concepts": {
+        "0": {
+            "label": "convert MSP --> Max",
+            "file": "audio-rate-to-control-rate_basic.maxpat"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+Historical Context
+===
+
+These patches are from CNMAT's "Musical Applications of Computers and Related Technologies" course, Music 158.  They were developed over a number of years by Edmund Campion and Michael Zbyszynski, with contributions from other CNMAT denizens.

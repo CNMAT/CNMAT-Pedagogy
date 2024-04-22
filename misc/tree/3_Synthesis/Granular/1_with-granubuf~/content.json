@@ -1,0 +1,64 @@
+{
+    "basics": {
+        "0": {
+            "label": "hello o.granubuf~",
+            "file": "about_o.granubuf~-hello.maxpat"
+        },
+        "1": {
+            "label": "hello phase-tronomes",
+            "file": "granubuf_grain-speed-phasetronome.maxpat"
+        },
+        "2": {
+            "label": "loading samples",
+            "file": "about_o.granubuf~-load-samples.maxpat"
+        },
+        "3": {
+            "label": "inlets",
+            "file": "about_o.granubuf~-inlets.maxpat"
+        }
+    },
+    "examples": {
+        "0": {
+            "label": "ex: rand long grains",
+            "file": "granubuf_rand-long-grains.maxpat"
+        },
+        "1": {
+            "label": "",
+            "file": ".maxpat"
+        },
+        "2": {
+            "label": "ex: start pos - select a region",
+            "file": "granubuf_select-start-pos-region.maxpat"
+        },
+        "3": {
+            "label": "ex: grain speed - accel & decel - partA",
+            "file": "granubuf_grain-speed-accel&decel_A.maxpat"
+        },
+        "4": {
+            "label": "ex: grain speed - accel & decel - partB",
+            "file": "granubuf_grain-speed-accel&decel_B.maxpat"
+        },
+        "5": {
+            "label": "ex: sync many params with speed",
+            "file": "granubuf_sync-many-params-with-speed.maxpat"
+        }
+    },
+    "time freeze and stretch": {
+        "0": {
+            "label": "freeze intro",
+            "file": "granular-synth_time-freeze_intro.maxpat"
+        },
+        "1": {
+            "label": "freeze patch",
+            "file": "granubuf_time-freeze.maxpat"
+        },
+        "2": {
+            "label": "stretch intro",
+            "file": "granular-synth_time-stretch_intro.maxpat"
+        },
+        "3": {
+            "label": "stretch patch",
+            "file": "granubuf_time-stretch.maxpat"
+        }
+    }
+}

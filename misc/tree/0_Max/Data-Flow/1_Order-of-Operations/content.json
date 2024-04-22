@@ -1,0 +1,13 @@
+{
+    "concepts": {
+        "0": {
+            "label": "order of operations",
+            "file": "orderOp_order-of-operations.maxpat"
+        },
+
+        "1": {
+            "label": "trigger to control order",
+            "file": "orderOp_trigger-to-control-order.maxpat"
+        }
+    }
+}

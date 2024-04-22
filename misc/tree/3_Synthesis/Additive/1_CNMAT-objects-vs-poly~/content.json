@@ -1,0 +1,23 @@
+{
+    "concepts": {
+        "0": {
+            "label": "non-abstracted",
+            "file": "additive-synth_non-abstracted-method.maxpat"
+        },
+        "1": {
+            "label": "use CNMAT objects or make a poly~",
+            "file": "additive-synth_CNMAT-objects-vs-poly~.maxpat"
+        }
+    },
+
+    "poly~ basics": {
+        "0": {
+            "label": "poly~ basic anatomy",
+            "file": "poly~_basic-anatomy.maxpat"
+        },
+        "1": {
+            "label": "design: using thispoly~ ID",
+            "file": "poly~_thispolyDESIGN_what-need.maxpat"
+        }
+    }
+}

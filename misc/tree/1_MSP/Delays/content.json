@@ -1,0 +1,87 @@
+{
+    "concepts": {
+        "0": {
+            "label": "intro",
+            "file": "delays_intro.maxpat"
+        },
+        "1": {
+            "label": "tapin~ tapout~",
+            "file": "delays_tapin~-tapout~.maxpat"
+        },
+        "2": {
+            "label": "delay with feedback",
+            "file": "delays_with-feedback.maxpat"
+        },
+        "3": {
+            "label": "with gen~",
+            "file": "delays_with-gen~.maxpat"
+        },
+        "4": {
+            "label": "tuning feedback delay to pitches",
+            "file": "delays_tune-to-pitch.maxpat"
+        },
+        "5": {
+            "label": "Karplus-Strong",
+            "file": "delays_karplus-strong.maxpat"
+        },
+        "6": {
+            "label": "reverbs in BEAP collection",
+            "file": "delays_BEAP-reverbs.maxpat"
+        },
+        "7": {
+            "label": "multiple feedback lines 1",
+            "file": "delays_multiple-feedback-lines-1.maxpat"
+        },
+        "8": {
+            "label": "multiple feedback lines 2",
+            "file": "delays_multiple-feedback-lines-2.maxpat"
+        },
+        "9": {
+            "label": "variable delay time",
+            "file": "delays_variable-delay-time.maxpat"
+        },
+        "10": {
+            "label": "poly~ example",
+            "file": "poly~_thispolyDESIGN_exDelays.maxpat"
+        }
+    },
+    "musical examples": {
+        "0": {
+            "label": "links",
+            "file": "delays_links-musical-examples.maxpat"
+        },
+        "1": {
+            "label": "past Labs",
+            "file": "delays_past-labs.maxpat"
+        }
+    },
+    "engines": {
+        "0": {
+            "label": "4-tap-delay~",
+            "file": "4-tap-delay~.maxhelp"
+        },
+        "1": {
+            "label": "16-tap-delay~",
+            "file": "16-tap-delay~.maxhelp"
+        },
+        "2": {
+            "label": "pitch-stutter~",
+            "file": "pitch-stutter~.maxhelp"
+        },
+        "3": {
+            "label": "yafr2 - reverb (abstraction)",
+            "file": "yafr2.maxpat"
+        }
+    },
+
+    "externals": {
+        "0": {
+            "label": "download ejies",
+            "file": "download_ejies.maxpat"
+        },
+        "1": {
+            "label": "ej.vdb~",
+            "file": "ej.vdb~.maxhelp"
+        }
+    }
+}

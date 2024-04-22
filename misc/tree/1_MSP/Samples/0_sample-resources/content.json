@@ -1,0 +1,16 @@
+{
+    "resources": {
+        "0": {
+            "label": "free sample libraries",
+            "file": "samps_download-links_free.maxpat"
+        },
+        "1": {
+            "label": "waveform editors",
+            "file": "samps_waveform-editors.maxpat"
+        },
+        "2": {
+            "label": "recording computer's audio streams",
+            "file": "samps_record-computer-streaming-audio.maxpat"
+        }
+    }
+}

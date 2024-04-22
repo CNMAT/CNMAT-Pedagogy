@@ -1,0 +1,25 @@
+{
+  "concepts" : 
+  {
+    "0": 
+    {
+      "label": "signal math objects",
+      "file": "signalMathIntro_objects.maxpat"
+    },
+    "1": 
+    {
+      "label": "+ (simple mixing)",
+      "file": "signalMathIntro_addition.maxpat"
+    },
+    "2": 
+    {
+      "label": "* (amp / volume)",
+      "file": "signalMathIntro_multiplication.maxpat"
+    },
+    "3": 
+    {
+      "label": "crossfading with * and !-",
+      "file": "mixing_crossfading.maxpat"
+    }
+  }
+}

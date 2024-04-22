@@ -1,0 +1,180 @@
+{
+	"pattrstorage" : 	{
+		"name" : "control_noise2pitch",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ -1.0 ],
+					"click1::bf" : [ 1.0 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ -0.5 ],
+					"click2::bf" : [ 2.0 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 1.0 ],
+					"click4::bf" : [ 8.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ -1.0 ],
+					"click1::bf" : [ 2.0 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ -0.5 ],
+					"click2::bf" : [ 3.0 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 4.0 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 1.0 ],
+					"click4::bf" : [ 5.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ -1.0 ],
+					"click1::bf" : [ 2.0 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ -0.5 ],
+					"click2::bf" : [ 3.0 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 5.0 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 1.0 ],
+					"click4::bf" : [ 7.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ -1.0 ],
+					"click1::bf" : [ 2.0 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ -0.5 ],
+					"click2::bf" : [ 5.0 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 7.0 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 1.0 ],
+					"click4::bf" : [ 9.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ -1.0 ],
+					"click1::bf" : [ 2.0 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ -0.5 ],
+					"click2::bf" : [ 5.0 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 9.0 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 1.0 ],
+					"click4::bf" : [ 11.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ -1.0 ],
+					"click1::bf" : [ 2.0 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ -0.5 ],
+					"click2::bf" : [ 7.0 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 9.0 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 1.0 ],
+					"click4::bf" : [ 11.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ -1.0 ],
+					"click1::bf" : [ 2.0 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ -0.5 ],
+					"click2::bf" : [ 7.0 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 9.0 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 1.0 ],
+					"click4::bf" : [ 13.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ -1.0 ],
+					"click1::bf" : [ 7.0 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ -0.5 ],
+					"click2::bf" : [ 9.0 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 11.0 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 1.0 ],
+					"click4::bf" : [ 13.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"click1::amp" : [ 1.0 ],
+					"click1::pan" : [ -1.0 ],
+					"click1::bf" : [ 9.0 ],
+					"click2::amp" : [ 1.0 ],
+					"click2::pan" : [ -0.5 ],
+					"click2::bf" : [ 11.0 ],
+					"click3::amp" : [ 1.0 ],
+					"click3::pan" : [ 0.5 ],
+					"click3::bf" : [ 13.0 ],
+					"click4::amp" : [ 1.0 ],
+					"click4::pan" : [ 1.0 ],
+					"click4::bf" : [ 15.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

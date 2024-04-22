@@ -1,0 +1,36 @@
+{
+    "intro": {
+        "0": {
+            "label": "map() to loop code",
+            "file": "map_intro-to.maxpat"
+        },
+        "1": {
+            "label": "foreach vs for loops",
+            "file": "map_intro-foreach-vs-for.maxpat"
+        }
+    },
+    "foreach-loop": {
+        "0": {
+            "label": "foreach-loop & syntax",
+            "file": "map_foreach-loop&syntax.maxpat"
+        },
+        "1": {
+            "label": "ex: filter a list",
+            "file": "map_filter-a-list.maxpat"
+        },
+        "2": {
+            "label": "ex: loop over multiple lists",
+            "file": "map_multiple-lists.maxpat"
+        }
+    },
+    "for-loop": {
+        "0": {
+            "label": "for-loop & syntax",
+            "file": "map_for-loop&syntax.maxpat"
+        },
+        "1": {
+            "label": "ex: idx makes freq, amp, decay",
+            "file": "map_using-index_freq-amp-decay.maxpat"
+        }
+    }
+}

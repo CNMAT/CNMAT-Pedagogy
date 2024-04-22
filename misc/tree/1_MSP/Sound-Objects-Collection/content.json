@@ -1,0 +1,101 @@
+{
+    "concepts": {
+        "0": {
+            "label": "read me",
+            "file": "source-sound-objects_intro.maxpat"
+        }
+    },
+
+    "synthesis engines - pitch": {
+        "0": {
+            "label": "cycle~",
+            "file": "cycle~.maxhelp"
+        },
+
+        "1": {
+            "label": "tri~",
+            "file": "tri~.maxhelp"
+        },
+
+        "2": {
+            "label": "saw~",
+            "file": "saw~.maxhelp"
+        },
+
+        "3": {
+            "label": "rect~",
+            "file": "rect~.maxhelp"
+        },
+
+        "4": {
+            "label": "phasor~",
+            "file": "phasor~.maxhelp"
+        },
+
+        "5": {
+            "label": "harmonics~",
+            "file": "harmonics~.maxhelp"
+        },
+
+        "6": {
+            "label": "sinusoids~",
+            "file": "sinusoids~.maxhelp"
+        },
+
+        "7": {
+            "label": "decaying-sinusoids~",
+            "file": "decaying-sinusoids~.maxhelp"
+        },
+
+        "8": {
+            "label": "cnmat.o.harmonics.shape~",
+            "file": "cnmat.o.harmonics.shape~.maxhelp"
+        },
+
+        "9": {
+            "label": "resonators~",
+            "file": "resonators~.maxhelp"
+        },
+
+        "10": {
+            "label": "waveguide~",
+            "file": "waveguide~.maxhelp"
+        }
+    },
+
+    "synthesis engines - noise": {
+        "0": {
+            "label": "noise~",
+            "file": "noise~.maxhelp"
+        },
+        "1": {
+            "label": "pink~",
+            "file": "pink~.maxhelp"
+        },
+        "2": {
+            "label": "click~",
+            "file": "click~.maxhelp"
+        }
+    },
+    "sample engines": {
+        "0": {
+            "label": "play~",
+            "file": "play~.maxhelp"
+        },
+
+        "1": {
+            "label": "wave~",
+            "file": "wave~.maxhelp"
+        },
+
+        "2": {
+            "label": "groove~",
+            "file": "groove~.maxhelp"
+        },
+
+        "3": {
+            "label": "o.granubuf~",
+            "file": "o.granubuf~.maxhelp"
+        }
+    }
+    }

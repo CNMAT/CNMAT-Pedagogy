@@ -1,0 +1,34 @@
+{
+    "concepts": {
+        "0": {
+            "label": "o.expr.codebox is stateless",
+            "file": "o.expr.codebox_stateless.maxpat"
+        },
+        "1": {
+            "label": "creating history for a bundle",
+            "file": "history-in-odot_basic.maxpat"
+        },
+        "2": {
+            "label": "tracking previous values",
+            "file": "history-in-odot_prevs-basic.maxpat"
+        },
+        "3": {
+            "label": "ex: using prevs",
+            "file": "history-in-odot_prevs-ex1.maxpat"
+        },
+        "4": {
+            "label": "ex: stream and stream avg",
+            "file": "history-in-odot_stream-ex1.maxpat"
+        }
+    },
+    "objects": {
+        "0": {
+            "label": "cnmat.o.stack",
+            "file": "cnmat.o.stack.maxhelp"
+        },
+        "1": {
+            "label": "cnmat.o.stack.time",
+            "file": "cnmat.o.stack.time.maxhelp"
+        }
+    }
+}

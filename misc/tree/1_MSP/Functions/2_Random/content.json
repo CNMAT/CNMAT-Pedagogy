@@ -1,0 +1,12 @@
+{
+    "concepts": {
+        "0": {
+            "label": "via noise~",
+            "file": "random_via-noise~.maxpat"
+        },
+        "1": {
+            "label": "drunk walk",
+            "file": "random_drunk-walk-via-accumulate~.maxpat"
+        }
+    }
+}

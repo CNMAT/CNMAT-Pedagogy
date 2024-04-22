@@ -1,0 +1,42 @@
+{
+    "meet reson~": {
+        "0": {
+            "label": "hello",
+            "file": "adding-up-resons~_meet-reson~.maxpat"
+        }
+    },
+
+    "with resonators~": {
+        "0": {
+            "label": "basic",
+            "file": "adding-up-resons~_resonators~_basic.maxpat"
+        },
+
+        "1": {
+            "label": "make a timbre",
+            "file": "adding-up-resons~_resonators~_make-timbre.maxpat"
+        },
+
+        "2": {
+            "label": "transform timbre with res-transform",
+            "file": "about_res-transform.maxpat"
+        }
+    },
+
+    "with poly~": {
+        "0": {
+            "label": "build filtersoids poly~",
+            "file": "adding-up-resons~_poly~.maxpat"
+        },
+
+        "1": {
+            "label": "filtersoids polyphony",
+            "file": "adding-up-resons~_poly~-of-poly~.maxpat"
+        },
+
+        "2": {
+            "label": "with timbral shimmer",
+            "file": "adding-up-resons~_poly~-shimmer.maxpat"
+        }
+    }
+}

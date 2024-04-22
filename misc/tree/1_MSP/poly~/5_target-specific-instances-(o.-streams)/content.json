@@ -1,0 +1,32 @@
+{
+    "design intro": {
+        "0": {
+            "label": "what is it",
+            "file": "poly~_specificInstancesDESIGN_what-when-why.maxpat"
+        },
+        "1": {
+            "label": "elements",
+            "file": "poly~_specificInstancesDESIGN_what-need.maxpat"
+        }
+    },
+    "ex: probability reson~s": {
+        "0": {
+            "label": "probability mechanism",
+            "file": "poly~_specificInstancesDESIGN_ex-probability-reson~_A.maxpat"
+        },
+        "1": {
+            "label": "build it",
+            "file": "poly~_specificInstancesDESIGN_ex-probability-reson~_B.maxpat"
+        }
+    },
+    "ex: Jitter and samples": {
+        "0": {
+            "label": "jitter and listen to a sample",
+            "file": "poly~_specificInstancesDESIGN_exJitter_A.maxpat"
+        },
+        "1": {
+            "label": "discussion patch",
+            "file": "poly~_specificInstancesDESIGN_exJitter_B.maxpat"
+        }
+    }
+}

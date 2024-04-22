@@ -1,0 +1,24 @@
+{
+    "concepts": {
+        "0": {
+            "label": "intro",
+            "file": "waveshaping_intro.maxpat"
+        },
+        "1": {
+            "label": "wrap, fold, clip - pong~",
+            "file": "waveshaping_pong~.maxpat"
+        },
+        "2": {
+            "label": "wrap - phasewrap~",
+            "file": "waveshaping_phasewrap~.maxpat"
+        },
+        "3": {
+            "label": "downsampling & bitcrushing",
+            "file": "waveshaping_downsampling-bitcrushing.maxpat"
+        },
+        "4": {
+            "label": "wavetables",
+            "file": "waveshaping_wavetables.maxpat"
+        }
+    }
+}

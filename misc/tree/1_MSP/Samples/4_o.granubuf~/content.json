@@ -1,0 +1,20 @@
+{
+    "concepts": {
+        "0": {
+            "label": "what is granular synthesis",
+            "file": "granular-synth_intro.maxpat"
+        },
+        "1": {
+            "label": "hello",
+            "file": "about_o.granubuf~-hello.maxpat"
+        },
+        "2": {
+            "label": "loading samples",
+            "file": "about_o.granubuf~-load-samples.maxpat"
+        },
+        "3": {
+            "label": "inlets",
+            "file": "about_o.granubuf~-inlets.maxpat"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "design intro": {
+        "0": {
+            "label": "what is it",
+            "file": "poly~_midiNotesDESIGN_what-when-why.maxpat"
+        },
+        "1": {
+            "label": "elements",
+            "file": "poly~_midiNotesDESIGN_what-need.maxpat"
+        }
+    },
+    "example": {
+        "0": {
+            "label": "tri~ polyphony",
+            "file": "poly~_midiNotesDESIGN_ex-tri~.maxpat"
+        }
+    }
+}

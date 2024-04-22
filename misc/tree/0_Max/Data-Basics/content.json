@@ -1,0 +1,42 @@
+﻿{
+    "data types": {
+        "0": {
+            "label": "control rate vs audio rate",
+            "file": "introData_speed-of-control-vs-signal"
+        },
+        "1": {
+            "label": "Max data types",
+            "file": "introData_Max-data-types.maxpat"
+        }
+    },
+    "troubleshooting": {
+        "0": {
+            "label": "troubleshooting is life",
+            "file": "introData_troubleshooting-is-life.maxpat"
+        },
+
+        "1": {
+            "label": "with message's right inlet",
+            "file": "introData_troubleshooting-with-message.maxpat"
+        },
+
+        "2": {
+            "label": "with max win & print",
+            "file": "introData_troubleshooting-max-win+print.maxpat"
+        }
+    },
+    "etc": {
+        "0": {
+            "label": "initializing (load) patch",
+            "file": "introData_init_loadbang-loadmess.maxpat"
+        },
+        "1": {
+            "label": "$-substitution (variables)",
+            "file": "introData_$-substitution.maxpat"
+        },
+        "2": {
+            "label": "commas in message boxes",
+            "file": "introData_commas-in-message.maxpat"
+        }
+    }
+}

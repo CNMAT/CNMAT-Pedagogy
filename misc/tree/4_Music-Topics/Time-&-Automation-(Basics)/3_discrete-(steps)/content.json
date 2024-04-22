@@ -1,0 +1,76 @@
+{
+    "intro": {
+        "0": {
+            "label": "step sequencer intro",
+            "file": "automate_intro-step-seq.maxpat"
+        },
+        "1": {
+            "label": "composing steps with GUIs",
+            "file": "gui_itable&multislider_basic.maxpat"
+        },
+        "2": {
+            "label": "step randomizer intro",
+            "file": "automate_intro-rand-seq.maxpat"
+        }
+    },
+    "control rate": {
+        "0": {
+            "label": "lookup table",
+            "file": "zl_lookup_basic.maxpat"
+        },
+        "1": {
+            "label": "step-seq basic",
+            "file": "automate_step-seq_basic.maxpat"
+        },
+        "2": {
+            "label": "step-rand basic",
+            "file": "automate_step-rand_basic.maxpat"
+        },
+        "3": {
+            "label": "step-seq (abstraction)",
+            "file": "automate_step-seq_abstraction.maxpat"
+        },
+        "4": {
+            "label": "step-seq ex.",
+            "file": "automate_step-seq_ex1.maxpat"
+        },
+        "5": {
+            "label": "step-rand ex.",
+            "file": "automate_step-rand_ex1.maxpat"
+        },
+        "6": {
+            "label": "change phrases",
+            "file": "automate_step-seq_change-phrases.maxpat"
+        }
+    },
+    "audio rate": {
+        "0": {
+            "label": "lookup table.",
+            "file": "sample-accurate_step-seq_lookup-table.maxpat"
+        },
+        "1": {
+            "label": "step-seq basic.",
+            "file": "sample-accurate_step-seq_basic.maxpat"
+        },
+        "2": {
+            "label": "step-rand basic.",
+            "file": "sample-accurate_step-rand_basic.maxpat"
+        },
+        "3": {
+            "label": " ",
+            "file": ".maxpat"
+        },
+        "4": {
+            "label": "step-seq ex..",
+            "file": "sample-accurate_step-seq_ex1.maxpat"
+        },
+        "5": {
+            "label": "",
+            "file": ".maxpat"
+        },
+        "6": {
+            "label": "change phrases.",
+            "file": "sample-accurate_step-seq_change-phrases.maxpat"
+        }
+    }
+}

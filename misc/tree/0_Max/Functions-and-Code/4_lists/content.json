@@ -1,0 +1,24 @@
+{
+    "zl": {
+        "0": {
+            "label": "zl helpfile",
+            "file": "zl.maxhelp"
+        }
+    },
+    "custom functions": {
+        "0": {
+            "label": "intro to vexpr",
+            "file": "lists_vexpr.maxpat"
+        }
+    },
+    "CNMAT functions": {
+        "0": {
+            "label": "Depot collection",
+            "file": "__list-functions-overview.maxpat"
+        },
+        "1": {
+            "label": "Externals collection",
+            "file": "CNMAT-externals_list-funcs-overview.maxpat"
+        }
+    }
+}

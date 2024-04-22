@@ -1,0 +1,28 @@
+{
+    "concepts": {
+        "0": {
+            "label": "intro to odot expression language",
+            "file": "o.expr.codebox_intro-expression-language.maxpat"
+        },
+
+        "1": {
+            "label": "errors: syntax",
+            "file": "o.expr.codebox_syntax-errors.maxpat"
+        },
+
+        "2": {
+            "label": "errors: unbound addrs",
+            "file": "o.expr.codebox_unbound-addr-errors.maxpat"
+        },
+
+        "3": {
+            "label": "some essential functions",
+            "file": "o.expr.codebox_essential-functions.maxpat"
+        },
+
+        "4": {
+            "label": "comments",
+            "file": "o.expr.codebox_comments.maxpat"
+        }
+    }
+}

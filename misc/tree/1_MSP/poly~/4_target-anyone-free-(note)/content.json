@@ -1,0 +1,22 @@
+{
+    "design intro": {
+        "0": {
+            "label": "what is it",
+            "file": "poly~_freeInstanceDESIGN_what-when-why.maxpat"
+        },
+        "1": {
+            "label": "elements",
+            "file": "poly~_freeInstanceDESIGN_what-need.maxpat"
+        }
+    },
+    "example": {
+        "0": {
+            "label": "filtersoids prereq",
+            "file": "poly~_freeInstanceDESIGN_ex-filtersoids_link-to-engine.maxpat"
+        },
+        "1": {
+            "label": "filtersoids polyphony",
+            "file": "poly~_freeInstanceDESIGN_ex-filtersoids_poly-inside-poly.maxpat"
+        }
+    }
+}

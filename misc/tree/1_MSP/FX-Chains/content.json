@@ -1,0 +1,19 @@
+{
+    "concepts": {
+        "0": {
+            "label": "gate~ to control FX",
+            "file": "FX_lesson.maxpat"
+        },
+        "1": {
+            "label": "one step further",
+            "file": "FX_lesson2.maxpat"
+        },
+        "2": {
+            "label": "crossfade FX",
+            "file": "FX_crossfade.maxpat"
+
+        }
+    }
+    
+    
+}

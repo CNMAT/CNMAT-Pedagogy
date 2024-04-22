@@ -1,0 +1,48 @@
+{
+    "intro": {
+        "0": {
+            "label": "intro",
+            "file": "sync-envelopes-and-steps_intro.maxpat"
+        }
+    },
+    "control rate": {
+        "0": {
+            "label": "basic: calculate envelope duration",
+            "file": "automate_sync-envelopes-and-steps_calculate-envelope.maxpat"
+        },
+        "1": {
+            "label": "ex: envelope each step",
+            "file": "automate_envelope-each-step.maxpat"
+        },
+        "2": {
+            "label": "ex: envelope entire phrase",
+            "file": "automate_envelope-phrase.maxpat"
+        }
+    },
+    "audio rate": {
+        "0": {
+            "label": "basic: use objects linked to phasor~",
+            "file": "sample-accurate_sync-envelopes-and-steps_link-to-phasor~.maxpat"
+        },
+        "1": {
+            "label": "ex: envelope each step.",
+            "file": "sample-accurate_envelope-each-step.maxpat"
+        },
+        "2": {
+            "label": "ex: envelope entire phrase.",
+            "file": "sample-accurate_envelope-phrase_granubuf.maxpat"
+        },
+        "3": {
+            "label": "",
+            "file": ".maxpat"
+        },
+        "4": {
+            "label": "pattern: sync many params 'per beat'",
+            "file": "sample-accurate_sync-many-params-per-beat.maxpat"
+        },
+        "5": {
+            "label": "pattern: params with different rates",
+            "file": "sample-accurate_params-different-rates.maxpat"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "intro": {
+        "0": {
+            "label": "the past informs the present",
+            "file": "history-prev_intro.maxpat"
+        }
+    },
+    "max objs": {
+        "0": {
+            "label": "max objs",
+            "file": "history-prev_maxObjs.maxpat"
+        },
+        "1": {
+            "label": "ex 1a: melodic movement",
+            "file": "history-prev_maxObjs_ex-melodyA.maxpat"
+        },
+        "2": {
+            "label": "ex 1b: melodic movement",
+            "file": "history-prev_maxObjs_ex-melodyB.maxpat"
+        }
+    },
+    "odot": {
+        "0": {
+            "label": "creating history in odot",
+            "syslink": "/o./Functions and Codebox/creating history for addresses"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "concepts": {
+        "0": {
+            "label": "about",
+            "file": "intro_odot-package-resources.maxpat"
+        },
+        "1": {
+            "label": "o.tutorial",
+            "file": "o.tutorial.maxpat"
+        },
+
+        "2": {
+            "label": "o.overview",
+            "file": "o.overview.maxpat"
+        },
+
+        "3": {
+            "label": "o.expr.overview",
+            "file": "o.expr.overview.maxpat"
+        }
+    }
+}

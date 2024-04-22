@@ -1,0 +1,41 @@
+{
+    "objects": {
+        "0": {
+            "label": "keyboard",
+            "file": "cnmat.o.io.keyboard.maxhelp"
+        },
+
+        "1": {
+            "label": "mouse",
+            "file": "cnmat.o.io.mouse.maxhelp"
+        },
+        "2": {
+            "label": "mic",
+            "file": "cnmat.o.io.mic~.maxhelp"
+        },
+        "3": {
+            "label": "breath controller",
+            "file": "cnmat.o.io.breath.maxhelp"
+        },
+        "4": {
+            "label": "camera (cv.jit.contours)",
+            "file": "cv.jit.contours.maxhelp"
+        },
+        "5": {
+            "label": "esplora",
+            "file": "o.io.esplora.maxhelp"
+        },
+        "6": {
+            "label": "x-touch",
+            "file": "o.io.xtouch.c.maxhelp"
+        },
+        "7": {
+            "label": "lemur",
+            "file": "cnmat.o.io.lemur.multitouch.maxhelp"
+        },
+        "8": {
+            "label": "midi device",
+            "file": "o.io.midi.maxhelp"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+NAME: CNMAT Spectral Tutorials
+DESCRIPTION: A series of patches that shows how to use CNMAT objects, including SDIF and OSC, for Spectral Synthesis.
+AUTHORS: Michael Zbyszynski
+COPYRIGHT_YEARS: 2006
+SVN_REVISION: $LastChangedRevision: 1513 $
+VERSION 1.0: Checked into SVN, mzed 13.xi.06
+VERSION 1.0.1: turns off dsp when closing patch - workaround for resonators~ crash, mzed 17.ix.06
+VERSION 1.0.2: Fixed spelling errors and typos
+VERSION 1.0.3: Made singing-voice~.mxb a binary file as the suffix demands
+VERSION 1.1: Added (de)interleave and peqbank~ tutorials
+VERSION 1.2: Added (de)interleave_2, resonant sdif, ftm+sdif, and sinusoids_bwe tutorials and SDIF overviews
+VERSION 1.2.1: Removed .svn files from released archive
+VERSION 1.3: Changed logo, new java vs lists tutorial
+VERSION 1.4: sin-synth is now a separate module; include that module in the download.
+VERSION 1.4.1: Patches that this module depends on (sin-synth) now appear properly in download.
+VERSION 2.0: Split off OSC tutorials, moved modules and demos into the MMJ Depot
+VERSION 2.1: bug fixes to comply with MMJ Depot
+VERSION 2.1.1: updating banner
+VERSION 2.1.2: more matrix types explained
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/

@@ -1,0 +1,25 @@
+{
+  "concepts": 
+  {
+    "0": 
+    {
+      "label": "crossfading",
+      "file": "mixing_crossfading.maxpat"
+    }
+  },
+
+  "engines": 
+  {
+    "0": 
+    {
+      "label": "matrix~",
+      "file": "matrix~.maxhelp"
+    },
+
+    "1": 
+    {
+      "label": "pan+amp~",
+      "file": "pan+amp~.maxhelp"
+    }
+  }
+}

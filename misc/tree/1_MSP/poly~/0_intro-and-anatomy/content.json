@@ -1,0 +1,23 @@
+{
+    "main concepts": {
+        "0": {
+            "label": "intro",
+            "file": "poly~_intro.maxpat"
+        },
+        "1": {
+            "label": "basic anatomy",
+            "file": "poly~_basic-anatomy.maxpat"
+        }
+    },
+
+    "(muting)": {
+        "0": {
+            "label": "muting instances",
+            "file": "poly~_muting-instances.maxpat"
+        },
+        "1": {
+            "label": "poly~-mute-control",
+            "file": "poly~-mute-control.maxhelp"
+        }
+    }
+}

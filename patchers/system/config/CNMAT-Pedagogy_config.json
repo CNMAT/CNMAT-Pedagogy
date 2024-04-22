@@ -1,0 +1,36 @@
+{
+    "names": {
+        "system_patch/1":      "_overview",
+        "system_patch/2thru4": "_system",
+
+        "tab/courses": "- COURSES -"
+    },
+
+    "paths":
+    {
+        "tree": "misc/tree/"
+    },
+
+    "appearance":
+    {
+        "system_patch_2":
+        {
+            "button/width": 260,
+            "button/height": 30,
+            "button/offsetX/fromLeft": 20,
+            "button/offsetY/fromTop": 117,
+            "button/color": [ 0.157, 0.357, 0.467, 1 ],
+            "button/txt/color": [ 1, 1, 1, 1 ]
+        },
+        "system_patch_4":
+        {
+            "button/width": 225,
+            "button/height": 30,
+            "button/offsetX/fromLeft": 20,
+            "button/offsetY/fromTop": 117,
+            "button/color": [ 0.157, 0.357, 0.467, 0.280 ],
+            "button/txt/color": [ 0, 0, 0, 1 ],
+            "column/spaceBetween": 20
+        }
+    }
+}

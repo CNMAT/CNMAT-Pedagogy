@@ -1,0 +1,16 @@
+{
+    "concepts": {
+        "0": {
+            "label": "patch cords",
+            "file": "basics_patchcords.maxpat"
+        },
+        "1": {
+            "label": "sends and receives",
+            "file": "basics_send-receive.maxpat"
+        },
+        "2": {
+            "label": "send via the ; message",
+            "file": "basics_semi-colon-send.maxpat"
+        }
+    }
+}

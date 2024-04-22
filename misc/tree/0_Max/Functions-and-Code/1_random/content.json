@@ -1,0 +1,24 @@
+{
+    "concepts": {
+        "0": {
+            "label": "random",
+            "file": "random.maxhelp"
+        },
+        "1": {
+            "label": "rand-int",
+            "file": "rand-int.maxhelp"
+        },
+        "2": {
+            "label": "rand-float",
+            "file": "rand-float.maxhelp"
+        },
+        "3": {
+            "label": "drunk",
+            "file": "drunk.maxhelp"
+        },
+        "4": {
+            "label": "urn (rand without duplicates)",
+            "file": "urn.maxhelp"
+        }
+    }
+}

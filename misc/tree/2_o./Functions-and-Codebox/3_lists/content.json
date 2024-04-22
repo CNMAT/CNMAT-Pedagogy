@@ -1,0 +1,44 @@
+{
+    "construction": {
+        "0": {
+            "label": "some terminology",
+            "file": "odotLists_terminology.maxpat"
+        },
+
+        "1": {
+            "label": "constructing a list",
+            "file": "odotLists_construction.maxpat"
+        },
+
+        "2": {
+            "label": "aseq( ) and nfill( )",
+            "file": "o.expr.codebox_aseq+nfill.maxpat"
+        }
+    },
+    "looping code on lists": {
+        "0": {
+            "label": "intro: code loops in Max/odot",
+            "file": "looping-code_intro.maxpat"
+        },
+
+        "1": {
+            "label": "functions applied to lists = free loop",
+            "file": "odotLists_applying-functions.maxpat"
+        }
+    },
+    "lookups": {
+        "0": {
+            "label": "lookup into a list by index",
+            "file": "odotLists_lookup-into-a-list.maxpat"
+        },
+
+        "1": {
+            "label": "lookup entire list by index",
+            "file": "odotLists_value_lookup-entire-list.maxpat"
+        },
+        "2": {
+            "label": "lookup entire list by index: ex",
+            "file": "odotLists_value_lookup-entire-list_ex.maxpat"
+        }
+    }
+}

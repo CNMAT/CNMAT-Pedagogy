@@ -1,0 +1,28 @@
+{
+    "concepts": {
+        "0": {
+            "label": "intro",
+            "file": "seeingSound_intro.maxpat"
+        },
+        "1": {
+            "label": "with scope~",
+            "file": "seeingSound_with-scope~.maxpat"
+        },
+
+        "2": {
+            "label": "with spectroscope~",
+            "file": "seeingSound_with-spectroscope~.maxpat"
+        },
+
+        "3": {
+            "label": "with number~",
+            "file": "seeingSound_with-number~.maxpat"
+        }
+    },
+    "resources": {
+        "0": {
+            "label": "external software",
+            "file": "seeingSound_external-software-links.maxpat"
+        }
+    }
+}

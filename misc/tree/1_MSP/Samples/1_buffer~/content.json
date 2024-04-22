@@ -1,0 +1,24 @@
+{
+    "concepts": {
+        "0": {
+            "label": "loading",
+            "file": "samps_buffer-loading.maxpat"
+        },
+        "1": {
+            "label": "viewing",
+            "file": "samps_buffer-viewing.maxpat"
+        },
+        "2": {
+            "label": "recording (basic)",
+            "file": "samps_buffer-recording_basic.maxpat"
+        },
+        "3": {
+            "label": "recording (dynamic dur)",
+            "file": "samps_buffer-recording_dynamic-dur.maxpat"
+        },
+        "4": {
+            "label": "info~",
+            "file": "samps_info~_basics.maxpat"
+        }
+    }
+}

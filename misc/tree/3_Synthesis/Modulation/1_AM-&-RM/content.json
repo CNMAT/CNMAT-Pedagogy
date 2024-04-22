@@ -1,0 +1,24 @@
+{
+    "concepts": {
+        "0": {
+            "label": "RM recipe",
+            "file": "RM_how-to_basic.maxpat"
+        },
+        "1": {
+            "label": "AM recipe",
+            "file": "AM_how-to_basic.maxpat"
+        },
+        "2": {
+            "label": "more complex signals",
+            "file": "AM-RM_more-complex-signals.maxpat"
+        },
+        "3": {
+            "label": "'hacking' mod synth part 1",
+            "file": "AM_exploration1.maxpat"
+        },
+        "4": {
+            "label": "'hacking' mod synth part 2",
+            "file": "AM_exploration2.maxpat"
+        }
+    }
+}

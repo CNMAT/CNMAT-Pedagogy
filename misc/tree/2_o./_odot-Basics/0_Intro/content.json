@@ -1,0 +1,23 @@
+{
+    "concepts": {
+        "0": {
+            "label": "what is odot?",
+            "file": "intro_what-is-odot.maxpat"
+        },
+
+        "1": {
+            "label": "human-readable data",
+            "file": "intro_odot-human-readable-data.maxpat"
+        },
+
+        "2": {
+            "label": "where it lives in your patch",
+            "file": "intro_where-odot-lives-in-patch.maxpat"
+        },
+
+        "3": {
+            "label": "intro to o.io",
+            "file": "o.io_intro.maxpat"
+        }
+    }
+}

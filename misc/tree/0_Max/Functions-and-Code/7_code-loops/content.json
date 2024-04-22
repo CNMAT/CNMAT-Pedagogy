@@ -1,0 +1,14 @@
+{
+    "concepts": {
+
+        "0": {
+            "label": "intro: code loops",
+            "file": "looping-code_intro.maxpat"
+        },
+
+        "1": {
+            "label": "with uzi",
+            "file": "code-loop_uzi.maxpat"
+        }
+    }
+}

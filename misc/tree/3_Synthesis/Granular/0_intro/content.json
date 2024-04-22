@@ -1,0 +1,12 @@
+{
+    "concepts": {
+        "0": {
+            "label": "intro",
+            "file": "granular-synth_intro.maxpat"
+        },
+        "1": {
+            "label": "synchronous vs async granulation",
+            "file": "granular-synth_sync-vs-async.maxpat"
+        }
+    }
+}

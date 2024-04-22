@@ -1,0 +1,27 @@
+{
+    "concepts": {
+        "0": {
+            "label": "intro",
+            "file": "timbre_intro-nuance-change.maxpat"
+        },
+        "1": {
+            "label": "enveloping timbre",
+            "file": "timbre_use-envelopes.maxpat"
+        },
+        "2": {
+            "label": "beatings, shimmer",
+            "file": "timbre_beatings-intro-to-shimmer.maxpat"
+        },
+        "3": {
+            "label": "beatings with the critical band",
+            "file": "timbre_beatings-and-critical-band.maxpat"
+        }
+    },
+
+    "musical examples": {
+        "0": {
+            "label": "links",
+            "file": "timbre_beatings-and-critical-band_links-to-musical-examples.maxpat"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+;
+dsp iovs 512,;
+dsp sigvs 512,;
+dsp sr 44100,;
+max preempt 1,;
+dsp takeover 0

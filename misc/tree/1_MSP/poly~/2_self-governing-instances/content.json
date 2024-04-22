@@ -1,0 +1,32 @@
+{
+    "design intro": {
+        "0": {
+            "label": "what is it",
+            "file": "poly~_selfGoverningDESIGN_what-when-why.maxpat"
+        },
+        "1": {
+            "label": "elements",
+            "file": "poly~_selfGoverningDESIGN_what-need.maxpat"
+        }
+    },
+    "ex: tri~ steppers": {
+        "0": {
+            "label": "stepper mechanism",
+            "file": "poly~_selfGoverningDESIGN_exStepper1_partA.maxpat"
+        },
+        "1": {
+            "label": "build it",
+            "file": "poly~_selfGoverningDESIGN_exStepper1_partB.maxpat"
+        }
+    },
+    "ex: samples": {
+            "0": {
+                "label": "listen to the samples",
+                "file": "poly~_selfGoverningDESIGN_exSamp1_partA.maxpat"
+            },
+            "1": {
+                "label": "build it.",
+                "file": "poly~_selfGoverningDESIGN_exSamp1_partB.maxpat"
+            }
+        }
+    }

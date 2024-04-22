@@ -1,0 +1,45 @@
+{
+    "intro": {
+        "0": {
+            "label": "like a marble machine (or conductor)",
+            "file": "maxPassData_intro.maxpat"
+        }
+    },
+    "objects": {
+        "0": {
+            "label": "select",
+            "file": "maxPassData_select.maxpat"
+        },
+
+        "1": {
+            "label": "route",
+            "file": "maxPassData_route.maxpat"
+        },
+
+        "2": {
+            "label": "switch",
+            "file": "maxPassData_switch.maxpat"
+        },
+
+        "3": {
+            "label": "selector~",
+            "file": "maxPassData_selector~.maxpat"
+        },
+
+        "4": {
+            "label": "gate",
+            "file": "maxPassData_gate.maxpat"
+        },
+
+        "5": {
+            "label": "gate~",
+            "file": "maxPassData_gate~.maxpat"
+        }
+    },
+    "more": {
+        "0": {
+            "label": "more about gate & switch",
+            "file": "about_gate-and-switch.maxpat"
+        }
+    }
+}

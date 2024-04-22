@@ -1,0 +1,54 @@
+{
+    "intro": {
+        "0": {
+            "label": "what is Max?",
+            "file": "basics_what-is-Max.maxpat"
+        },
+        "1": {
+            "label": "CNMAT Packages/technologies",
+            "file": "basics_what-are-cnmat-technologies.maxpat"
+        },
+        "2": {
+            "label": "code everything yourself!",
+            "file": "basics_coding-everything-yourself.maxpat"
+        },
+        "3": {
+            "label": "making a new patch",
+            "file": "basics_make-new-patch.maxpat"
+        },
+        "4": {
+            "label": "edit vs lock mode",
+            "file": "basics_edit-vs-lock-mode.maxpat"
+        },
+        "5": {
+            "label": "messy vs clean?",
+            "file": "basics_clean-vs-messy-patch-logic.maxpat"
+        }
+    },
+    "objects": {
+        "0": {
+            "label": "creation and types",
+            "file": "basics_objects-creation+types.maxpat"
+        },
+        "1": {
+            "label": "inlets, outlets, patchcords",
+            "file": "basics_objects-inlets-outlets-and-patchcords.maxpat"
+        },
+        "2": {
+            "label": "(send/receive instead of patchcord)",
+            "file": "basics_send-receive.maxpat"
+        },
+        "3": {
+            "label": "instantiation arguments",
+            "file": "basics_objects-instantiation-arguments.maxpat"
+        },
+        "4": {
+            "label": "the inspector & attributes",
+            "file": "basics_objects_the-inspector+attributes.maxpat"
+        },
+        "5": {
+            "label": "seeking help",
+            "file": "basics_seeking-help.maxpat"
+        }
+    }
+}

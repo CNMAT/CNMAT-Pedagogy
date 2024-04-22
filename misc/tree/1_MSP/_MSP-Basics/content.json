@@ -1,0 +1,59 @@
+{
+    "intro": {
+        "0": {
+            "label": "speed of data: control vs signal",
+            "file": "introData_speed-of-control-vs-signal"
+        },
+
+        "1": {
+            "label": "adc & dac",
+            "file": "basics_adc-&-dac.maxpat"
+        },
+
+        "2": {
+            "label": "about signal objects",
+            "file": "basics_about-signal-objects.maxpat"
+        },
+        "3": {
+            "label": "(send~/receive~ instead of patchcord)",
+            "file": "basics_send~receive~.maxpat"
+        },
+
+        "4": {
+            "label": "main volume",
+            "file": "basics_main-volume.maxpat"
+        }
+    },
+    "theory": {
+        "0": {
+            "label": "voltage",
+            "file": "basics_voltage.maxpat"
+        },
+        "1": {
+
+            "label": "frequency perception",
+            "file": "basics_frequency-perception.maxpat"
+        },
+
+        "2": {
+            "label": "sine waves",
+            "file": "basics_sine-waves.maxpat"
+        },
+
+
+        "3": {
+            "label": "sampled sound vs synthesis",
+            "file": "basics_samples-vs-synth.maxpat"
+        },
+
+        "4": {
+            "label": "sampling theory",
+            "file": "basics_sampling-theory.maxpat"
+        },
+
+        "5": {
+            "label": "loudness",
+            "file": "basics_loudness.maxpat"
+        }
+    }
+}

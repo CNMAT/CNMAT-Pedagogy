@@ -1,0 +1,13 @@
+﻿{
+    "concepts": {
+        "0": {
+            "label": "with o.var's right inlet",
+            "file": "about_o.var.maxpat"
+        },
+
+        "1": {
+            "label": "with o.compose's right inlet",
+            "file": "about_o.compose-rightInlet.maxpat"
+        }
+    }
+}

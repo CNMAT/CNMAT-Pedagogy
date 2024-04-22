@@ -1,0 +1,13 @@
+{
+    "concepts": {
+        "0": {
+            "label": "basic",
+            "file": "polybuffer~_basic.maxpat"
+        },
+
+        "1": {
+            "label": "querying info",
+            "file": "polybuffer~_querying-info.maxpat"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+﻿{
+    "help and about": {
+        "0": {
+            "label": "dict helpfile",
+            "file": "dict.maxhelp"
+        },
+        "1": {
+            "label": "CNMAT about",
+            "file": "about_dict.maxpat"
+        }
+    },
+    "focusing on presets": {
+        "0": {
+            "label": "basic presets",
+            "file": "presets_dict-basics.maxpat"
+        },
+        "1": {
+            "label": "odot (see column 'odot with dict')",
+            "syslink": "/o./Presets"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "concepts": {
+        "0": {
+            "label": "via noise~ and a thresh",
+            "file": "probability-msp_basic.maxpat"
+        },
+        "1": {
+            "label": "probability distribution",
+            "file": "probability-distribution_o.random.weighted~.maxpat"
+        }
+    }
+}

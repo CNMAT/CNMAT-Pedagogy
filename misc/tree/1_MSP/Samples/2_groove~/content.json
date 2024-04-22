@@ -1,0 +1,20 @@
+{
+    "concepts": {
+        "0": {
+            "label": "basics & triggers",
+            "file": "samps_groove~_basics.maxpat"
+        },
+        "1": {
+            "label": "1/2steps --> speed (for transposition)",
+            "file": "formula_halfstep-to-speed.maxpat"
+        },
+        "2": {
+            "label": "looping",
+            "file": "samps_groove~_looping.maxpat"
+        },
+        "3": {
+            "label": "timestretching",
+            "file": "samps_groove~_timestretching.maxpat"
+        }
+    }
+}

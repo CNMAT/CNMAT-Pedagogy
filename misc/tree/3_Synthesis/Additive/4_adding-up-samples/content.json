@@ -1,0 +1,30 @@
+{
+    "intro": {
+        "0": {
+            "label": "intro",
+            "file": "adding-up-samps_intro.maxpat"
+        },
+        "1": {
+            "label": "sound mass",
+            "file": "adding-up-samps_sound-mass-intro.maxpat"
+        }
+    },
+    "with poly~ example": {
+        "0": {
+            "label": "design: self-governing",
+            "file": "poly~_selfGoverningDESIGN_what-when-why.maxpat"
+        },
+        "1": {
+            "label": "what you'll need",
+            "file": "poly~_selfGoverningDESIGN_what-need.maxpat"
+        },
+        "2": {
+            "label": "listen to the samples",
+            "file": "poly~_selfGoverningDESIGN_exSamp1_partA.maxpat"
+        },
+        "3": {
+            "label": "build the poly~ engine",
+            "file": "poly~_selfGoverningDESIGN_exSamp1_partB.maxpat"
+        }
+    }
+}

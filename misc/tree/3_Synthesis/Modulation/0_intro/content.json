@@ -1,0 +1,22 @@
+{
+    "intro": {
+        "0": {
+            "label": "modulation synth - what is it?",
+            "file": "modulationSynth_what-is-it.maxpat"
+        },
+        "1": {
+            "label": "we need fast, regular variance",
+            "file": "modulationSynth_creating-variance-with-oscillator.maxpat"
+        },
+        "2": {
+            "label": "speed vs range of variance",
+            "file": "modulationSynth_speed-vs-range-of-variance.maxpat"
+        }
+    },
+    "musical examples": {
+        "0": {
+            "label": "FM links",
+            "file": "modulationSynth_links-musical-examples.maxpat"
+        }
+    }
+}

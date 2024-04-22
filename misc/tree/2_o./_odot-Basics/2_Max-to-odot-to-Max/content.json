@@ -1,0 +1,33 @@
+{
+    "intro": {
+        "0": {
+            "label": "Max & o. don't understand each other",
+            "file": "basics_max-and-odot-dont-understand-each-other.maxpat"
+        }
+    },
+    "core objects": {
+        "0": {
+            "label": "viewing odot data (o.display)",
+            "file": "about_o.display.maxpat"
+        },
+        "1": {
+            "label": "max to odot - o.pack",
+            "file": "about_o.pack_max-to-odot.maxpat"
+        },
+        "2": {
+            "label": "odot to max - o.route",
+            "file": "about_o.route_odot-to-max.maxpat"
+        }
+    },
+
+    "o.gui.attach": {
+        "0": {
+            "label": "max to odot - o.gui.attach",
+            "file": "about_o.gui.attach_max-to-odot.maxpat"
+        },
+        "1": {
+            "label": "example",
+            "file": "about_o.gui.attach_max-to-odot_ex.maxpat"
+        }
+    }
+}

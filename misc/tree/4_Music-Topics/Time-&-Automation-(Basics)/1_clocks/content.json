@@ -1,0 +1,48 @@
+{
+    "intro": {
+        "0": {
+            "label": "intro",
+            "file": "automate_intro-discrete-clocks.maxpat"
+        }
+    },
+    "control rate": {
+        "0": {
+            "label": "metro - basic",
+            "file": "automate_metro.maxpat"
+        },
+        "1": {
+            "label": "metro - rand time interval",
+            "file": "automate_random-metro.maxpat"
+        },
+        "2": {
+            "label": "metro - rand & prob decision",
+            "file": "automate_metro-rand-and-prob-decision.maxpat"
+        },
+        "3": {
+            "label": "",
+            "file": ".maxpat"
+        },
+        "4": {
+            "label": "clocker",
+            "file": "automate_clocker.maxpat"
+        },
+        "5": {
+            "label": "timer",
+            "file": "automate_timer.maxpat"
+        }
+    },
+    "audio rate": {
+        "0": {
+            "label": "phasor~ - basic",
+            "file": "sample-accurate_clock.maxpat"
+        },
+        "1": {
+            "label": "phase-tronome - basic",
+            "file": "sample-accurate_metro.maxpat"
+        },
+        "2": {
+            "label": "phase-tro - random",
+            "file": "automate_random-phasetro.maxpat"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "concepts": {
+        "0": {
+            "label": "(see columns 'intro' & 'max')",
+            "syslink": "/Music Topics/Creating History for Variables"
+        }
+    },
+    "objects": {
+        "0": {
+            "label": "delta",
+            "file": "delta.maxhelp"
+        },
+        "1": {
+            "label": "running average",
+            "file": "running-average.maxhelp"
+        },
+        "2": {
+            "label": "onepole - data smoothing via hist",
+            "file": "onepole.maxhelp"
+        }
+    }
+}

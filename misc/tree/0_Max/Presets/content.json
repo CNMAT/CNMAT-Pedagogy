@@ -1,0 +1,22 @@
+{
+    "pattr": {
+        "0": {
+            "label": "pattr basics",
+            "file": "presets_pattr-basics.maxpat"
+        },
+        "1": {
+            "label": "get state of all UI in patch",
+            "file": "pattr_query-all-in-patch.maxpat"
+        }
+    },
+    "dict": {
+        "0": {
+            "label": "dict basics",
+            "file": "presets_dict-basics.maxpat"
+        },
+        "1": {
+            "label": "odot (see column 'odot with dict')",
+            "syslink": "/o./Presets"
+        }
+    }
+}

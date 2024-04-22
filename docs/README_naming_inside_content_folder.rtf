@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww20420\viewh10980\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs32 \cf0 folder naming and hierarchy overview
+\b0\fs28  
+\fs24 \
+\
+
+\b          
+\b0         
+\b name format                   \
+order           
+\fs20 ( or .json )
+\fs24             examples                                     what it makes
+\b0 \
+order 1:     #_Name                0_Max  1_MSP                            TABS                       \
+order 2:     Name                    Delays  Signal-Functions             BUTTONS\
+order 3:     
+\fs20 content.json
+\fs24                                                                   columns of buttons on 1 TAB\
+                  \'85or\'85\
+                  #_Name.               0_intro  1_Design1  2_Design2   Multi TABS\
+\
+order 4:     
+\fs22 content.json
+\fs24                                                                  columns of buttons on Multi TABS                                 \
+\
+
+\b\fs32 words and special characters
+\b0\fs24 \
+\
+
+\i\b Hyphens
+\i0\b0  are used between multiple words, e.g. 0_how-to-make-great-sounds, 1_you\'92ll-need-cycle~\
+\
+
+\i\b Spaces
+\i0\b0  should never be used.  Always use hyphensbetween words!  For instance, don\'92t call a folder \'93other-explorations-(e.g. samples)\'94 because the space will break everything!\
+                                                                                                                                           instead call it \'93other-explorations-(e.g.-samples)\'94\
+\
+
+\i\b Underscores
+\i0\b0  only allowed to designate order, 0_, 1_, 2_ etc.  These are reserved for the system and won\'92t appear to the user or can screw up the linking system if used otherwise. \
+Never use underscores like Time__Rhythm vs Time__Automation.  Instead use \'93\'85\'93, e.g. Time\'85Rhythm and Time\'85Automation\
+\
+
+\i\b Ellipsis (\'85)
+\i0\b0  See underscores above.  These are fine to use and are a good way to denote additional hierarchy if needed, e.g. Time\'85Rhythm and Time\'85Automation\
+\
+
+\b\fs32 patch naming
+\b0\fs24 \
+Patch naming conventions could exist to help users locate and organize them; however, the system does not depend on patch names (including special characters) for proper operation - so feel free to name them however you want.  As long as a patch name appears verbatim in a content.json file (or actually any .json file), the system can launch it from its corresponding button. \
+ }

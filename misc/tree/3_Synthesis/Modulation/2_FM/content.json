@@ -1,0 +1,66 @@
+{
+    "the signal algorithm": {
+        "0": {
+            "label": "intro",
+            "file": "FM_intro.maxpat"
+        },
+        "1": {
+            "label": "first step",
+            "file": "FM_by-hand.maxpat"
+        },
+        "2": {
+            "label": "bare-minimum recipe",
+            "file": "FM_how-to_basic.maxpat"
+        },
+        "3": {
+            "label": "refine our recipe 1",
+            "file": "FM_refine-our-engine-1.maxpat"
+        },
+        "4": {
+            "label": "refine our recipe 2",
+            "file": "FM_refine-our-engine-2.maxpat"
+        },
+        "5": {
+            "label": "summary and Max's abstraction",
+            "file": "FM_summary-and-simpleFM~.maxpat"
+        }
+    },
+    "explorations": {
+        "0": {
+            "label": "poly~ FM partials",
+            "file": "FM_poly~_main.maxpat"
+        },
+        "1": {
+            "label": "with envelopes",
+            "file": "FM_envelopes-ex1.maxpat"
+        },
+        "2": {
+            "label": "other signals (samples or adc~)",
+            "file": "FM_other-signals-intro.maxpat"
+        },
+        "3": {
+            "label": "other signals as modulator",
+            "file": "FM_other-signals-as-modulator.maxpat"
+        },
+        "4": {
+            "label": "modulating other signals",
+            "file": "FM_modulating-other-signals.maxpat"
+        }
+    },
+    "calculating sidebands (additive)": {
+        "0": {
+            "label": "sidebands formula",
+            "file": "FM_sidebands-formula.maxpat"
+        },
+        "1": {
+            "label": "with resonators~",
+            "file": "FM_sidebands-formula-resonators.maxpat"
+        }
+    },
+    "engines": {
+        "0": {
+            "label": "simpleFM~ (an abstraction)",
+            "file": "simpleFM~.maxpat"
+        }
+    }
+}

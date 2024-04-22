@@ -1,0 +1,12 @@
+{
+    "concepts": {
+        "0": {
+            "label": "some terminology",
+            "file": "basics_odot-addrs_some-terminology.maxpat"
+        },
+        "1": {
+            "label": "naming addresses",
+            "file": "basics_odot-addrs_naming.maxpat"
+        }
+    }
+}

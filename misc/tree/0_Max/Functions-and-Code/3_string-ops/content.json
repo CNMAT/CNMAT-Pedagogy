@@ -1,0 +1,34 @@
+{
+    "Max objects": {
+        "0": {
+            "label": "sprintf - helpfile",
+            "file": "sprintf.maxhelp"
+        },
+        "1": {
+            "label": "sprintf - CNMAT about",
+            "file": "about_sprintf.maxpat"
+        },
+        "2": {
+            "label": "regexp - helpfile",
+            "file": "regexp.maxhelp"
+        },
+        "3": {
+            "label": "regexp - CNMAT about",
+            "file": "about_regexp.maxpat"
+        },
+        "4": {
+            "label": "fromsymbol",
+            "file": "fromsymbol.maxhelp"
+        },
+        "5": {
+            "label": "tosymbol",
+            "file": "tosymbol.maxhelp"
+        }
+    },
+    "CNMAT objects": {
+        "0": {
+            "label": "remove-character",
+            "file": "remove-character-js.maxhelp"
+        }
+    }
+}

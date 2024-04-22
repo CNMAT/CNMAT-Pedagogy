@@ -1,0 +1,29 @@
+﻿{
+    "intro": {
+        "0": {
+            "label": "the need to merge data streams",
+            "file": "merging_datastreams_why.maxpat"
+        },
+
+        "1": {
+            "label": "which object to use?",
+            "file": "merging_datastreams_which-object-to-use.maxpat"
+        }
+    },
+    "objects": {
+        "0": {
+            "label": "o.union",
+            "file": "about_o.union.maxpat"
+        },
+
+        "1": {
+            "label": "o.collect",
+            "file": "about_o.collect.maxpat"
+        },
+
+        "2": {
+            "label": "o.accum",
+            "file": "about_o.accum.maxpat"
+        }
+    }
+}

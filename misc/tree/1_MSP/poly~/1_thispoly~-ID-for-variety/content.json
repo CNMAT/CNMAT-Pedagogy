@@ -1,0 +1,30 @@
+{
+    "design intro": {
+        "0": {
+            "label": "what is it",
+            "file": "poly~_thispolyDESIGN_what-when-why.maxpat"
+        },
+        "1": {
+            "label": "elements",
+            "file": "poly~_thispolyDESIGN_what-need.maxpat"
+        }
+    },
+    "examples": {
+        "0": {
+            "label": "sinusoids",
+            "file": "adding-up-sine-tones_poly~.maxpat"
+        },
+        "1": {
+            "label": "filtersoids",
+            "file": "adding-up-resons~_poly~.maxpat"
+        },
+        "2": {
+            "label": "shimmersoids",
+            "file": "adding-up-resons~_poly~-shimmer.maxpat"
+        },
+        "3": {
+            "label": "delays",
+            "file": "poly~_thispolyDESIGN_exDelays.maxpat"
+        }
+    }
+}

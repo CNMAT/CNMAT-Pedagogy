@@ -1,0 +1,8 @@
+{
+    "concepts": {
+        "0": {
+            "label": "setting UI without output",
+            "file": "UI_setting-without-output.maxpat"
+        }
+    }
+}

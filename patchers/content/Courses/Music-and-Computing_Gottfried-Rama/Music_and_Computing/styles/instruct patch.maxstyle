@@ -1,0 +1,10 @@
+{
+	"default" : 	{
+		"textcolor" : [ 0.058258, 0.13026, 0.773204, 1.0 ],
+		"fontface" : [ 1 ]
+	}
+,
+	"parentstyle" : "",
+	"name" : "instruct patch",
+	"multi" : 0
+}

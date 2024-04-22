@@ -1,0 +1,28 @@
+{
+    "intro": {
+        "0": {
+            "label": "shhh!",
+            "file": "time-automate_rests-intro.maxpat"
+        }
+    },
+    "control rate": {
+        "0": {
+            "label": "only bang on match",
+            "file": "automate_rests_zl-sect-and-sel.maxpat"
+        },
+        "1": {
+            "label": "random & probabilistic",
+            "file": "automate_rests_rand-and-prob.maxpat"
+        }
+    },
+    "audio rate": {
+        "0": {
+            "label": "zero the click (ex samples)",
+            "file": "sample-accurate_rests_zero-the-click-samples.maxpat"
+        },
+        "1": {
+            "label": "zero the click (ex envelopes & synth)",
+            "file": "sample-accurate_rests_zero-the-click-envelopes.maxpat"
+        }
+    }
+}

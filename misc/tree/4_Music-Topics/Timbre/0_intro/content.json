@@ -1,0 +1,34 @@
+{
+    "intro": {
+        "0": {
+            "label": "sounds are complex!",
+            "file": "additive-synth-and-timbre-intro.maxpat"
+        },
+        "1": {
+            "label": "many, many middle C's",
+            "file": "timbre_intro_many-middle-Cs.maxpat"
+        },
+        "2": {
+            "label": "design techniques",
+            "file": "timbre_intro_design-techniques.maxpat"
+        }
+    },
+    "looping code": {
+        "0": {
+            "label": "why will we loop code?",
+            "file": "timbre_intro-why-loop.maxpat"
+        },
+        "1": {
+            "label": "loops in other languages vs Max",
+            "file": "looping-code_intro.maxpat"
+        },
+        "2": {
+            "label": "...in odot",
+            "file": "odotLists_applying-functions.maxpat"
+        },
+        "3": {
+            "label": "...in Max",
+            "file": "code-loop_uzi.maxpat"
+        }
+    }
+}

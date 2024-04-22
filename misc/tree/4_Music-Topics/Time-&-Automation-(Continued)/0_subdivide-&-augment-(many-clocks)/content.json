@@ -1,0 +1,60 @@
+{
+    "intro": {
+        "0": {
+            "label": "terms for discussing rhythm",
+            "file": "definition-of-terms-for-rhythm.maxpat"
+        },
+        "1": {
+            "label": "parent and child clocks",
+            "file": "clocks_intro-parent-and-children.maxpat"
+        },
+        "2": {
+            "label": "one more term: polyrhythm",
+            "file": "polyrhythm_what-is-it.maxpat"
+        }
+    },
+    "control rate": {
+        "0": {
+            "label": "many metros",
+            "file": "subdivide-and-augment_many-metros.maxpat"
+        },
+        "1": {
+            "label": "**one metro, fast parent",
+            "file": "subdivide-and-augment_one-metro_zlsect.maxpat"
+        },
+        "2": {
+            "label": "one metro, slow parent",
+            "file": "subdivide-and-augment_one-metro_delays.maxpat"
+        },
+        "3": {
+            "label": "",
+            "file": ""
+        },
+        "4": {
+            "label": "ex: polyrhythm",
+            "file": "polyrhythm_with-LCM.maxpat"
+        }
+    },
+    "audio rate": {
+        "0": {
+            "label": "basic rate~",
+            "file": "subdivide-and-augment_with-rate~_basic.maxpat"
+        },
+        "1": {
+            "label": "many rate~s",
+            "file": "subdivide-and-augment_with-rate~_many-clocks.maxpat"
+        },
+        "2": {
+            "label": "prereq for below: o.granubuf~",
+            "syslink": "/MSP/Samples/o.granubuf~"
+        },
+        "3": {
+            "label": "ex: automated subdivs",
+            "file": "subdivide-and-augment_with-rate~_automate.maxpat"
+        },
+        "4": {
+            "label": "ex: polyrhythm.",
+            "file": "polyrhythm_with-rate~.maxpat"
+        }
+    }
+}

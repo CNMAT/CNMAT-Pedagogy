@@ -1,0 +1,16 @@
+{
+    "objects": {
+        "0": {
+            "label": "o.route",
+            "file": "routing-data_o.route.maxpat"
+        },
+        "1": {
+            "label": "o.select, o.gather, o.gather.select",
+            "file": "routing-data_o.select-&-o.gather.maxpat"
+        },
+        "2": {
+            "label": "trigger & gate",
+            "file": "routing-data_odot-with-trigger-&-gate.maxpat"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "intro": {
+        "0": {
+            "label": "many possibilities",
+            "file": "automate_intro-interp_overview.maxpat"
+        }
+    },
+    "control rate": {
+        "0": {
+            "label": "intro..",
+            "file": "automate_intro-interp_control-rate.maxpat"
+        },
+        "1": {
+            "label": "line (linear interp)",
+            "file": "automate_line+line~.maxpat"
+        }
+    },
+    "audio rate (basic)": {
+        "0": {
+            "label": "intro...",
+            "file": "automate_intro-interp_audio-rate-basic-objects.maxpat"
+        },
+        "1": {
+            "label": "LFO (sine interp)",
+            "file": "automate_LFO.maxpat"
+        },
+        "2": {
+            "label": "LFO (rand speed)",
+            "file": "automate_LFO-rand.maxpat"
+        },
+        "3": {
+            "label": "line~ (linear interp)",
+            "file": "automate_line+line~.maxpat"
+        },
+        "4": {
+            "label": "curve~ (curvilinear interp)",
+            "file": "automate_curve~.maxpat"
+        },
+        "5": {
+            "label": "rand~ (linear interp)",
+            "file": "automate_rand~.maxpat"
+        },
+        "6": {
+            "label": "adsr~ (linear interp)",
+            "file": "automate_adsr~_basic.maxpat"
+        },
+        "7": {
+            "label": "adsr~ UI",
+            "file": "adsrui-jsui.maxhelp"
+        },
+        "8": {
+            "label": "",
+            "file": ""
+        },
+        "9": {
+            "label": "additive envelopes",
+            "file": "automate_additive-envelopes.maxpat"
+        }
+    },
+    "audio rate (entirely sample-accurate)": {
+        "0": {
+            "label": "intro....",
+            "file": "sample-accurate_intro-interp.maxpat"
+        },
+        "1": {
+            "label": "synced to phasor~ - standard shapes",
+            "file": "sample-accurate_interp-envelopes_standard.maxpat"
+        },
+        "2": {
+            "label": "synced to phasor~ - custom shapes",
+            "file": "sample-accurate_interp-envelopes_custom.maxpat"
+        },
+        "3": {
+            "label": "adsr~ (sample-accurate)",
+            "file": "sample-accurate_adsr~.maxpat"
+        }
+    }
+}

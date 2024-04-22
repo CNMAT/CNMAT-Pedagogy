@@ -1,0 +1,32 @@
+{
+    "intro": {
+        "0": {
+            "label": "off the grid / timeline",
+            "file": "automate_intro-beyond-the-grid.maxpat"
+        },
+        "1": {
+            "label": "what is automation?",
+            "file": "automate_intro-what-is-automation.maxpat"
+        }
+    },
+    "continuous vs steps (discrete)": {
+        "0": {
+            "label": "what are continuous and discrete data?",
+            "file": "automate_intro-interp-vs-discrete.maxpat"
+        },
+        "1": {
+            "label": "what are envelopes?",
+            "file": "automate_intro-envelopes.maxpat"
+        }
+    },
+    "control vs audio rate columns": {
+        "0": {
+            "label": "navigating this unit by column",
+            "file": "automate_intro-control-vs-audio-rate.maxpat"
+        },
+        "1": {
+            "label": "however, can convert!",
+            "file": "audio-rate-to-control-rate_basic.maxpat"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "concepts": {
+        "0": {
+            "label": "why clicks occur",
+            "file": "declick_why-clicks-occur.maxpat"
+        },
+        "1": {
+            "label": "fix: interpolate to target",
+            "file": "declick_interp-to-target.maxpat"
+        },
+        "2": {
+            "label": "fix: function table endpts",
+            "file": "declick_function-table-endpts.maxpat"
+        },
+        "3": {
+            "label": "fix: make the change when amp = 0",
+            "file": "declick_change-when-amp0.maxpat"
+        },
+        "4": {
+            "label": "fix: interp wave with rampsmooth~",
+            "file": "declick_rampsmooth.maxpat"
+        }
+    }
+}
