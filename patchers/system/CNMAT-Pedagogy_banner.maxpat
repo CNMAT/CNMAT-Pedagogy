@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 190.0, 79.0, 792.0, 682.0 ],
+		"rect" : [ 882.0, 223.0, 792.0, 682.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,32 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 567.0, 147.0, 29.5, 22.0 ],
+					"text" : "set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 567.0, 103.0, 68.0, 22.0 ],
+					"text" : "sel blank"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -93,6 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 171.0, 260.0, 150.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 156.0, 150.0, 23.0 ]
@@ -150,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.0, 169.0, 74.0, 22.0 ],
+					"patching_rect" : [ 616.0, 191.0, 74.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -164,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.0, 140.0, 73.0, 22.0 ],
+					"patching_rect" : [ 616.0, 147.0, 73.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -178,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.0, 111.0, 79.0, 22.0 ],
+					"patching_rect" : [ 567.0, 75.0, 92.0, 22.0 ],
 					"text" : "loadmess #1"
 				}
 
@@ -276,25 +302,7 @@
 					"patching_rect" : [ 156.0, 83.0, 366.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 156.0, 83.0, 366.0, 29.0 ],
-					"text" : "#1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-1",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 111.0, 357.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 156.0, 111.0, 357.0, 18.0 ],
-					"text" : "#2",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "myName"
 				}
 
 			}
@@ -365,7 +373,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.5, 392.0, 130.0, 19.0 ],
+					"patching_rect" : [ 432.5, 392.0, 184.0, 19.0 ],
 					"text" : "loadmess #2"
 				}
 
@@ -387,7 +395,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ "#3" ],
+					"bgcolor" : [ 0.254902, 0.580392, 0.643137, 1.0 ],
 					"bordercolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "panel",
@@ -527,6 +535,27 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -546,15 +575,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "CNMAT_logo.png",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-MMJ-Depot-master/media/Images",
-				"patcherrelativepath" : "../../../../Max 8/Packages/CNMAT-MMJ-Depot-master/media/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.973975, 1.0, 0.972394, 1.0 ]
 	}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 892.0, 203.0, 626.0, 487.0 ],
+		"rect" : [ 581.0, 329.0, 626.0, 487.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,8 +59,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.931640625, 232.0, 245.0, 20.0 ],
-					"text" : "/Music Topics/Time & Automation (Basics)/continuous"
+					"patching_rect" : [ 98.931640625, 232.0, 210.0, 20.0 ],
+					"text" : "/Time/Time & Automation (Basics)/continuous"
 				}
 
 			}
@@ -291,8 +291,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CNMAT-Pedagogy_link.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/system",
-				"patcherrelativepath" : "../../patchers/system",
+				"bootpath" : "~/Documents/max_enabled/pedagogy/__158a_me/158a_2024_Spring/__FinalProjects/connor_bernard_final/patchers",
+				"patcherrelativepath" : "../../../../../max_enabled/pedagogy/__158a_me/158a_2024_Spring/__FinalProjects/connor_bernard_final/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 665.0, 119.0, 984.0, 691.0 ],
+		"rect" : [ 753.0, 99.0, 984.0, 691.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 10.0,
@@ -169,8 +170,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 19.0, 463.0, 932.0, 73.0 ],
-					"text" : "/scripting_name = /folder_1st_order,\n/patcherarg1    = /names./package,\n/patcherarg2    = /folder_1st_order, \n/instantiate    = [ \"script\", \"newdefault\", /scripting_name, /offsetX, /offsetY, /abstraction_name, /patcherarg1, /patcherarg2 ]"
+					"patching_rect" : [ 19.0, 463.0, 961.0, 73.0 ],
+					"presentation_linecount" : 4,
+					"text" : "/scripting_name = /folder_1st_order,\n/patcherarg1    = /names./package,\n/patcherarg2    = /folder_1st_order, \n/instantiate    = [ \"script\", \"hidden\", \"newdefault\", \"system2\", /offsetX, /offsetY, /abstraction_name, /patcherarg1, /patcherarg2 ]"
 				}
 
 			}

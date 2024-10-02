@@ -1,0 +1,35 @@
+{
+    "with sinusoids~": {
+        "0": {
+            "label": "basic harmonics~",
+            "file": "adding-up-sine-tones_harmonics~.maxpat"
+        },
+        "1": {
+            "label": "basic sinusoids",
+            "file": "adding-up-sine-tones_sinusoids~_basic.maxpat"
+        },
+        "2": {
+            "label": "basic o.sinusoids",
+            "file": "adding-up-sine-tones_o.sinusoids~_basic.maxpat"
+        },
+        "3": {
+            "label": "make a timbre",
+            "file": "adding-up-sine-tones_sinusoids~_make-timbre.maxpat"
+        },
+        "4": {
+            "label": "with decay",
+            "file": "about_decaying-sinusoids~.maxpat"
+        }
+    },
+
+    "with poly~": {
+        "0": {
+            "label": "build sinusoids poly~",
+            "file": "adding-up-sine-tones_poly~.maxpat"
+        },
+        "1": {
+            "label": "with timbral 'shimmer'",
+            "file": "adding-up-sine-tones-shimmer_poly~.maxpat"
+        }
+    }
+}

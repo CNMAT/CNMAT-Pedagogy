@@ -1,0 +1,61 @@
+{
+    "intro": {
+        "0": {
+            "label": "first, learn timbre basics & 2 formulas",
+            "file": "additive-synth_links-to-timbre.maxpat"
+        }
+    },
+
+    "musical examples": {
+        "0": {
+            "label": "web links",
+            "file": "additive-synth_links-musical-examples.maxpat"
+        },
+        "1": {
+            "label": "past labs",
+            "file": "additive-synth_past-labs.maxpat"
+        }
+    },
+
+    "tutorials & resources": {
+        "0": {
+            "label": "CNMAT spectral tutorials",
+            "file": "00-overview.maxpat"
+        },
+        "1": {
+            "label": "CNMAT externals",
+            "file": "CNMAT_Externals_Overview.maxpat"
+        }
+    },
+
+    "engines": {
+        "0": {
+            "label": "sinusoids~",
+            "file": "sinusoids~.maxhelp"
+        },
+        "1": {
+            "label": "o.sinusoids~",
+            "file": "cnmat.o.sinusoids~.maxhelp"
+        },
+        "2": {
+            "label": "decaying-sinusoids~",
+            "file": "decaying-sinusoids~.maxhelp"
+        },
+        "3": {
+            "label": "harmonics~",
+            "file": "harmonics~.maxhelp"
+        },
+        "4": {
+            "label": "cnmat.o.harmonics.shape~",
+            "file": "cnmat.o.harmonics.shape~.maxhelp"
+        },
+        "5": {
+            "label": "resonators~",
+            "file": "resonators~.maxhelp"
+        },
+        "6": {
+            "label": "res-transform",
+            "file": "res-transform.maxhelp"
+        }
+    }
+}

@@ -47,11 +47,11 @@
     },
     "musical examples": {
         "0": {
-            "label": "links",
+            "label": "web links",
             "file": "delays_links-musical-examples.maxpat"
         },
         "1": {
-            "label": "past Labs",
+            "label": "past labs",
             "file": "delays_past-labs.maxpat"
         }
     },
@@ -65,23 +65,16 @@
             "file": "16-tap-delay~.maxhelp"
         },
         "2": {
+            "label": "plucked~",
+            "file": "plucked~.maxhelp"
+        },
+        "3": {
             "label": "pitch-stutter~",
             "file": "pitch-stutter~.maxhelp"
         },
-        "3": {
+        "4": {
             "label": "yafr2 - reverb (abstraction)",
             "file": "yafr2.maxpat"
-        }
-    },
-
-    "externals": {
-        "0": {
-            "label": "download ejies",
-            "file": "download_ejies.maxpat"
-        },
-        "1": {
-            "label": "ej.vdb~",
-            "file": "ej.vdb~.maxhelp"
         }
     }
 }

@@ -404,8 +404,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 948.0, 527.5, 53.0, 18.0 ],
-					"text" : "Jon Kulpa"
+					"patching_rect" : [ 862.5, 527.5, 145.0, 18.0 ],
+					"text" : "Michael Zbyszynski, Jon Kulpa"
 				}
 
 			}
@@ -432,7 +432,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 12.0, 353.0, 27.0 ],
-					"text" : "the non-abstracted (brute-force) method"
+					"text" : "the non-abstracted (\"naive\") method"
 				}
 
 			}

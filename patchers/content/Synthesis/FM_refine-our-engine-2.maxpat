@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 79.0, 1184.0, 715.0 ],
+		"rect" : [ 48.0, 79.0, 1166.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-40",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 697.0, 604.5, 285.0, 19.0 ],
+					"text" : "NOTE: if modulator = 2 * carrier, the result is odd partials"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 0,
 					"fontsize" : 11.0,
@@ -438,8 +451,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1095.0, 689.0, 53.0, 18.0 ],
-					"text" : "Jon Kulpa"
+					"patching_rect" : [ 1003.0, 689.0, 145.0, 18.0 ],
+					"text" : "Jon Kulpa, Michael Zbyszynski"
 				}
 
 			}

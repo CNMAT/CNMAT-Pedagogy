@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 79.0, 1120.0, 718.0 ],
+		"rect" : [ 275.0, 230.0, 1120.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,14 +37,81 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-18",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 370.0, 49.0, 99.0, 20.0 ],
+					"text" : "load download_ejies"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 370.0, 80.0, 44.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"fontface" : 3,
+					"fontlink" : 1,
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 306.0, 72.796875, 34.689451217651367, 13.40625 ],
+					"spacing_x" : 0.0,
+					"spacing_y" : 0.0,
+					"text" : "ejies",
+					"textcolor" : [ 0.156862745098039, 0.407843137254902, 0.772549019607843, 1.0 ],
+					"textoncolor" : [ 0.27, 0.35, 0.47, 1.0 ],
+					"textovercolor" : [ 0.393308520317078, 0.720691680908203, 0.858563601970673, 1.0 ],
+					"underline" : 1,
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 52.933350000000019, 70.5, 261.0, 20.0 ],
+					"text" : "For this exploration, you need to first download "
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-183",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "tapconnect" ],
-					"patching_rect" : [ 511.933350000000019, 309.0, 74.0, 22.0 ],
+					"patching_rect" : [ 511.933350000000019, 348.0, 74.0, 22.0 ],
 					"text" : "tapin~ 5000"
 				}
 
@@ -56,7 +123,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 855.433318999999983, 909.0, 205.0, 18.0 ],
+					"patching_rect" : [ 855.433318999999983, 948.0, 205.0, 18.0 ],
 					"text" : "Maija Hynninen, Jon Kulpa, Dan Van Hassel"
 				}
 
@@ -68,7 +135,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.933350000000019, 480.5, 992.0, 47.0 ],
+					"patching_rect" : [ 52.933350000000019, 519.5, 992.0, 47.0 ],
 					"text" : "The principle is to have two crossfading taps.  The new delay time is sent to a tap whose amplitude is already at 0, so we don't hear the click.  Meanwhile, the other tap is still playing the previous delay time at amp 1. so we hear continuous sound.  The tap with the new delay time (which is at amp 0.) then increases to amp 1. Thus, we hear the new delay and without a click.  The two taps perform a constant juggling act to hide the click.  Below, this process repeats every 100 ms. "
 				}
 
@@ -82,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.183350000000019, 724.0, 71.0, 20.0 ],
+					"patching_rect" : [ 432.183350000000019, 763.0, 71.0, 20.0 ],
 					"text" : "loadmess 100"
 				}
 
@@ -96,7 +163,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 730.683350000000019, 547.0, 52.0, 20.0 ],
+					"patching_rect" : [ 730.683350000000019, 586.0, 52.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -108,8 +175,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.683350000000019, 689.0, 74.0, 22.0 ],
-					"text" : "698.5"
+					"patching_rect" : [ 675.683350000000019, 728.0, 74.0, 22.0 ],
+					"text" : "397."
 				}
 
 			}
@@ -122,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 730.683350000000019, 588.5, 152.0, 22.0 ],
+					"patching_rect" : [ 730.683350000000019, 627.5, 152.0, 22.0 ],
 					"text" : "100 0 1000 4000 100 4000"
 				}
 
@@ -136,7 +203,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 730.683350000000019, 619.5, 41.0, 22.0 ],
+					"patching_rect" : [ 730.683350000000019, 658.5, 41.0, 22.0 ],
 					"text" : "line 0."
 				}
 
@@ -148,7 +215,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.933350000000019, 532.5, 231.0, 20.0 ],
+					"patching_rect" : [ 52.933350000000019, 571.5, 231.0, 20.0 ],
 					"text" : "ej.vdb~ takes the place of your tapout~"
 				}
 
@@ -160,7 +227,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 311.183350000000019, 785.0, 40.0, 22.0 ],
+					"patching_rect" : [ 311.183350000000019, 824.0, 40.0, 22.0 ],
 					"text" : "*~ 0.5"
 				}
 
@@ -172,7 +239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "tapconnect" ],
-					"patching_rect" : [ 311.183350000000019, 638.0, 72.0, 22.0 ],
+					"patching_rect" : [ 311.183350000000019, 677.0, 72.0, 22.0 ],
 					"text" : "tapin~ 2000"
 				}
 
@@ -184,7 +251,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 311.183350000000019, 756.0, 261.0, 22.0 ],
+					"patching_rect" : [ 311.183350000000019, 795.0, 261.0, 22.0 ],
 					"text" : "ej.vdb~"
 				}
 
@@ -196,7 +263,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.183350000000019, 850.0, 33.0, 22.0 ],
+					"patching_rect" : [ 286.183350000000019, 889.0, 33.0, 22.0 ],
 					"text" : "stop"
 				}
 
@@ -208,7 +275,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.683350000000019, 850.0, 74.0, 22.0 ],
+					"patching_rect" : [ 207.683350000000019, 889.0, 74.0, 22.0 ],
 					"text" : "startwindow"
 				}
 
@@ -219,7 +286,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.68334999999999, 898.0, 37.0, 22.0 ],
+					"patching_rect" : [ 100.68334999999999, 937.0, 37.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -233,7 +300,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 99.68334999999999, 850.0, 100.000000000000028, 22.0 ]
+					"patching_rect" : [ 99.68334999999999, 889.0, 100.000000000000028, 22.0 ]
 				}
 
 			}
@@ -248,8 +315,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -282,6 +349,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "Default Max 7",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Helvetica Neue",
@@ -420,7 +488,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 14.0, 74.0, 50.0, 22.0 ],
-									"text" : "506"
+									"text" : "984"
 								}
 
 							}
@@ -844,7 +912,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 99.68334999999999, 572.0, 137.0, 22.0 ],
+					"patching_rect" : [ 99.68334999999999, 611.0, 137.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -862,7 +930,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.933350000000019, 459.5, 568.0, 20.0 ],
+					"patching_rect" : [ 52.933350000000019, 498.5, 568.0, 20.0 ],
 					"text" : "It is possible to build the solution ourselves, with two crossfading taps, but this issue is solved by ej.vdb~. "
 				}
 
@@ -876,7 +944,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 12.433318999999997, 931.995421999999962, 1048.0, 10.0 ],
+					"patching_rect" : [ 12.433318999999997, 970.995421999999962, 1048.0, 10.0 ],
 					"pic" : "separation_line1.png"
 				}
 
@@ -889,7 +957,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.5, 432.5, 114.0, 22.0 ],
+					"patching_rect" : [ 30.5, 471.5, 114.0, 22.0 ],
 					"text" : "use ej.vdb~   =-)"
 				}
 
@@ -905,8 +973,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -939,6 +1007,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "Default Max 7",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Helvetica Neue",
@@ -1077,7 +1146,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 14.0, 74.0, 50.0, 22.0 ],
-									"text" : "741"
+									"text" : "592"
 								}
 
 							}
@@ -1501,7 +1570,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 98.68334999999999, 108.0, 137.0, 22.0 ],
+					"patching_rect" : [ 98.68334999999999, 147.0, 137.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1522,7 +1591,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 572.183350000000019, 108.0, 52.0, 20.0 ],
+					"patching_rect" : [ 572.183350000000019, 147.0, 52.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1535,7 +1604,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 755.00006099999996, 144.5, 188.0, 19.0 ],
+					"patching_rect" : [ 755.00006099999996, 183.5, 188.0, 19.0 ],
 					"text" : "Our composed change in delay time."
 				}
 
@@ -1547,7 +1616,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.183350000000019, 337.0, 319.0, 19.0 ],
+					"patching_rect" : [ 376.183350000000019, 376.0, 319.0, 19.0 ],
 					"text" : "But, we hear undesireable clicks from the changing delay times."
 				}
 
@@ -1559,8 +1628,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 517.183350000000019, 216.0, 74.0, 22.0 ],
-					"text" : "698.5"
+					"patching_rect" : [ 517.183350000000019, 255.0, 74.0, 22.0 ],
+					"text" : "397."
 				}
 
 			}
@@ -1571,7 +1640,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 769.616699000000267, 162.5, 274.0, 19.0 ],
+					"patching_rect" : [ 769.616699000000267, 201.5, 274.0, 19.0 ],
 					"text" : "(bouncy ball rhythm made from a changing delay time)"
 				}
 
@@ -1583,7 +1652,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.933350000000019, 108.0, 107.0, 19.0 ],
+					"patching_rect" : [ 260.933350000000019, 147.0, 107.0, 19.0 ],
 					"text" : "boring events again"
 				}
 
@@ -1597,7 +1666,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 572.183350000000019, 144.5, 152.0, 22.0 ],
+					"patching_rect" : [ 572.183350000000019, 183.5, 152.0, 22.0 ],
 					"text" : "100 0 1000 4000 100 4000"
 				}
 
@@ -1611,7 +1680,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 572.183350000000019, 175.5, 41.0, 22.0 ],
+					"patching_rect" : [ 572.183350000000019, 214.5, 41.0, 22.0 ],
 					"text" : "line 0."
 				}
 
@@ -1623,7 +1692,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.183350000000019, 337.0, 33.0, 22.0 ],
+					"patching_rect" : [ 285.183350000000019, 376.0, 33.0, 22.0 ],
 					"text" : "stop"
 				}
 
@@ -1635,7 +1704,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 206.683350000000019, 337.0, 74.0, 22.0 ],
+					"patching_rect" : [ 206.683350000000019, 376.0, 74.0, 22.0 ],
 					"text" : "startwindow"
 				}
 
@@ -1646,7 +1715,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.68334999999999, 385.0, 37.0, 22.0 ],
+					"patching_rect" : [ 99.68334999999999, 424.0, 37.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -1660,7 +1729,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 98.68334999999999, 337.0, 100.000000000000028, 22.0 ]
+					"patching_rect" : [ 98.68334999999999, 376.0, 100.000000000000028, 22.0 ]
 				}
 
 			}
@@ -1673,7 +1742,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 311.183350000000019, 274.0, 42.0, 20.0 ],
+					"patching_rect" : [ 311.183350000000019, 313.0, 42.0, 20.0 ],
 					"text" : "*~ 0.5"
 				}
 
@@ -1687,7 +1756,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 311.183350000000019, 237.0, 49.0, 22.0 ],
+					"patching_rect" : [ 311.183350000000019, 276.0, 49.0, 22.0 ],
 					"text" : "tapout~"
 				}
 
@@ -1701,7 +1770,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "tapconnect" ],
-					"patching_rect" : [ 311.183350000000019, 196.0, 74.0, 22.0 ],
+					"patching_rect" : [ 311.183350000000019, 235.0, 74.0, 22.0 ],
 					"text" : "tapin~ 2000"
 				}
 
@@ -1714,7 +1783,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.5, 40.5, 147.0, 22.0 ],
+					"patching_rect" : [ 30.5, 33.5, 147.0, 22.0 ],
 					"text" : "click, click, click   =-("
 				}
 
@@ -1728,7 +1797,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 12.433318999999997, 421.995421999999962, 1048.0, 10.0 ],
+					"patching_rect" : [ 12.433318999999997, 460.995421999999962, 1048.0, 10.0 ],
 					"pic" : "separation_line1.png"
 				}
 
@@ -1739,7 +1808,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.933350000000019, 67.5, 569.0, 20.0 ],
+					"patching_rect" : [ 52.933350000000019, 106.5, 569.0, 20.0 ],
 					"text" : "Let's make a \"bouncing ball\" rhythm via a constantly changing delay time.  Unfortunately, click, click, click."
 				}
 
@@ -1752,7 +1821,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.433318999999999, 11.5, 276.0, 27.0 ],
+					"patching_rect" : [ 12.433318999999997, 4.5, 276.0, 27.0 ],
 					"text" : "variable delay time ( click-free )"
 				}
 
@@ -1766,7 +1835,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 432.183350000000019, 626.5, 208.0, 56.0 ],
+					"patching_rect" : [ 432.183350000000019, 665.5, 209.0, 56.0 ],
 					"text" : "The middle inlet value is how often we sample the line message, i.e. how often we change the delay time (how often the taps inside ej.vdb~ cross-fade)."
 				}
 
@@ -1785,7 +1854,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 735.5, 144.5, 20.0, 20.0 ],
+					"patching_rect" : [ 735.5, 183.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1806,7 +1875,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 241.68334999999999, 108.0, 20.0, 20.0 ],
+					"patching_rect" : [ 241.68334999999999, 147.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1827,7 +1896,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 356.566650999999979, 337.0, 20.0, 20.0 ],
+					"patching_rect" : [ 356.566650999999979, 376.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1846,7 +1915,7 @@
 				"patchline" : 				{
 					"color" : [ 0.964289, 0.0, 0.999097, 1.0 ],
 					"destination" : [ "obj-105", 0 ],
-					"midpoints" : [ 320.683350000000019, 302.0, 303.250000999999997, 302.0, 303.250000999999997, 183.0, 320.683350000000019, 183.0 ],
+					"midpoints" : [ 320.683350000000019, 341.0, 303.250000999999997, 341.0, 303.250000999999997, 222.0, 320.683350000000019, 222.0 ],
 					"order" : 0,
 					"source" : [ "obj-102", 0 ]
 				}
@@ -1886,7 +1955,7 @@
 				"patchline" : 				{
 					"color" : [ 0.964289, 0.0, 0.999097, 1.0 ],
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 320.683350000000019, 818.0, 304.750000999999997, 818.0, 304.750000999999997, 627.0, 320.683350000000019, 627.0 ],
+					"midpoints" : [ 320.683350000000019, 857.0, 304.750000999999997, 857.0, 304.750000999999997, 666.0, 320.683350000000019, 666.0 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -1917,6 +1986,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
@@ -1941,8 +2018,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 762.183350000000019, 650.0, 889.5, 650.0, 889.5, 579.0, 740.183350000000019, 579.0 ],
+					"midpoints" : [ 762.183350000000019, 689.0, 889.5, 689.0, 889.5, 618.0, 740.183350000000019, 618.0 ],
 					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -2043,7 +2128,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
-					"midpoints" : [ 603.683350000000019, 206.0, 731.0, 206.0, 731.0, 135.0, 581.683350000000019, 135.0 ],
+					"midpoints" : [ 603.683350000000019, 245.0, 731.0, 245.0, 731.0, 174.0, 581.683350000000019, 174.0 ],
 					"source" : [ "obj-92", 1 ]
 				}
 
@@ -2082,7 +2167,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "ej.vdb~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ejies_3.2.4/patchers",
-				"patcherrelativepath" : "../../../../../../Max 8/Packages/ejies_3.2.4/patchers",
+				"patcherrelativepath" : "../../../../ejies_3.2.4/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2100,10 +2185,10 @@
 , 			{
 				"name" : "music+computing_highlight_bright_sz12",
 				"default" : 				{
-					"fontname" : [ "Helvetica Neue" ],
 					"fontface" : [ 1 ],
-					"textcolor" : [ 0.315808, 0.0, 0.827487, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontname" : [ "Helvetica Neue" ],
+					"fontsize" : [ 12.0 ],
+					"textcolor" : [ 0.315808, 0.0, 0.827487, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

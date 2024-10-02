@@ -1,0 +1,14 @@
+{
+    "intro": {
+        "0": {
+            "label": "what is it?",
+            "file": "subtractive-synth_intro.maxpat"
+        }
+    },
+    "musical examples": {
+        "0": {
+            "label": "web links",
+            "file": "subtractive-synth_musical-exs.maxpat"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "concepts": {
+        "0": {
+            "label": "transpose",
+            "file": "mzed-transpose.maxpat"
+        },
+        "1": {
+            "label": "invert",
+            "file": "mzed-invert.maxpat"
+        },
+        "2": {
+            "label": "invert chords",
+            "file": "mzed-invert(chords).maxpat"
+        },
+        "3": {
+            "label": "retrograde",
+            "file": "mzed-retrograde.maxpat"
+        },
+        "4": {
+            "label": "twelve-tone ops",
+            "file": "mzed-twelve-tone_ops.maxpat"
+        },
+        "5": {
+            "label": "contour",
+            "file": "mzed-contour.maxpat"
+        }
+    },
+    "engines": {
+        "0": {
+            "label": "jsNotation",
+            "file": "jsNotation.maxhelp"
+        }
+    }
+}

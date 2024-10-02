@@ -1,0 +1,56 @@
+{
+    "harmonic & inharmonic series": {
+        "0": {
+            "label": "harmonic series - formula",
+            "file": "timbre_harmonic-series-formula.maxpat"
+        },
+        "1": {
+            "label": "harmonic series - object",
+            "file": "make_harmonic_series.maxhelp"
+        },
+        "2": {
+            "label": "harmonic series - o. & sinusoids~",
+            "file": "adding-up-sine-tones_sinusoids~_harmonic.maxpat"
+        },
+        "3": {
+            "label": "harmonic series - notated",
+            "file": "mzed-harmonic_series.maxpat"
+        },
+        "4": {
+            "label": "harmonicity - formula",
+            "file": "timbre_harmonicity-formula.maxpat"
+        },
+        "5": {
+            "label": "harmonicity - Max",
+            "file": "timbre_harmonicity-in-max.maxpat"
+        },
+        "6": {
+            "label": "harmonicity - odot",
+            "file": "timbre_harmonicity-in-odot.maxpat"
+        },
+        "7": {
+            "label": "harmonicity - o. & sinusoids~",
+            "file": "adding-up-sine-tones_sinusoids~_make-timbre.maxpat"
+        }
+    },
+    "FM series": {
+        "0": {
+            "label": "FM - formula",
+            "file": "FM_sidebands-formula.maxpat"
+        },
+        "1": {
+            "label": "FM - Max",
+            "file": "mzed-FM_spectra.maxpat"
+        },
+        "2": {
+            "label": "FM - odot",
+            "file": "FM_sidebands-formula-resonators.maxpat"
+        }
+    },
+    "other": {
+        "0": {
+            "label": "Lucas sequence",
+            "file": "make_lucas_sequence.maxhelp"
+        }
+    }
+}

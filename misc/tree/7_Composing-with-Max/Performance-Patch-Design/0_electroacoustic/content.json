@@ -1,0 +1,8 @@
+{
+    "tutorials": {
+        "0": {
+            "label": "piece with live performer & cue pedal",
+            "file": "00-piecemaker_intro.maxpat"
+        }
+    }
+}

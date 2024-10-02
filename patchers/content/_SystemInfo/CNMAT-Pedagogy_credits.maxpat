@@ -58,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 59.0, 116.0, 771.0, 33.0 ],
-					"text" : "Many of these individuals are past and present teachers of m158 and other CNMAT staff and faculty.  They are also past students of m158 (sometimes noted as \"m158a-er\")."
+					"text" : "Many of these individuals are past and present teachers and professors at CNMAT.  They are also past students who have made discoveries and contributed."
 				}
 
 			}

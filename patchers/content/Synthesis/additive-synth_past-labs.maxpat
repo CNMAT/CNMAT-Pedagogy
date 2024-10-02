@@ -40,6 +40,48 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"hidden" : 1,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 332.931640625, 103.59375, 167.0, 19.0 ],
+					"text" : "load Gautam-Mittal_lab2_additive-synth"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"fontface" : 3,
+					"fontlink" : 1,
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 57.2578125, 78.59375, 87.341796875, 13.40625 ],
+					"spacing_x" : 0.0,
+					"spacing_y" : 0.0,
+					"text" : "Gautam Mittal",
+					"textcolor" : [ 0.156862745098039, 0.407843137254902, 0.772549019607843, 1.0 ],
+					"textoncolor" : [ 0.27, 0.35, 0.47, 1.0 ],
+					"textovercolor" : [ 0.393308520317078, 0.720691680908203, 0.858563601970673, 1.0 ],
+					"underline" : 1,
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 11.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
@@ -92,10 +134,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 57.2578125, 55.59375, 100.015625, 13.40625 ],
+					"patching_rect" : [ 57.2578125, 55.59375, 61.343746185302734, 13.40625 ],
 					"spacing_x" : 0.0,
 					"spacing_y" : 0.0,
-					"text" : "Jai Singh - Lab2",
+					"text" : "Jai Singh",
 					"textcolor" : [ 0.156862745098039, 0.407843137254902, 0.772549019607843, 1.0 ],
 					"textoncolor" : [ 0.27, 0.35, 0.47, 1.0 ],
 					"textovercolor" : [ 0.393308520317078, 0.720691680908203, 0.858563601970673, 1.0 ],
@@ -145,6 +187,22 @@
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

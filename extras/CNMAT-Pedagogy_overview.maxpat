@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 79.0, 1038.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 1042.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,9 +37,224 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"showrootpatcherontab" : 0,
+		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"title" : "CNMAT-Pedagogy_overview",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 278.5, 200.0, 36.5, 20.0 ],
+					"text" : "b 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-26",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 279.0, 266.0, 84.0, 20.0 ],
+					"text" : "setactivetab Max"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"arrows" : 1,
+					"border" : 2.0,
+					"hidden" : 1,
+					"id" : "obj-38",
+					"linecolor" : [ 0.062745098039216, 0.070588235294118, 0.074509803921569, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 393.0, 19.5, 59.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 687.0, 133.0, 100.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "deleteSystem2s.js",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js deleteSystem2s.js"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 9.0,
+					"hidden" : 1,
+					"id" : "obj-32",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 104.0, 293.0, 290.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 83.0, 84.0, 50.0, 20.0 ],
+									"text" : "shift+H"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 29.0, 128.0, 33.0, 22.0 ],
+									"text" : "front"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 29.0, 84.0, 41.0, 22.0 ],
+									"text" : "sel 72"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "int", "int", "int" ],
+									"patching_rect" : [ 29.0, 36.0, 50.5, 22.0 ],
+									"text" : "key"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 29.0, 195.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 192.0, 268.0, 76.0, 29.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p \"bring to front: key shortcut\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -54,65 +269,24 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 108.0, 242.0, 814.666666666666742, 206.0 ],
+					"patching_rect" : [ 117.833333333333371, 231.0, 814.666666666666742, 206.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 10.0,
+					"fontface" : 1,
+					"fontsize" : 11.0,
 					"hidden" : 1,
 					"id" : "obj-17",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 58.333333333333371, 312.0, 254.0, 18.0 ],
+					"patching_rect" : [ 10.0, 456.0, 119.0, 43.0 ],
 					"text" : "The patches that are instantiated above are _system2's",
 					"textcolor" : [ 0.341176470588235, 0.188235294117647, 0.937254901960784, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-19",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 827.777777777777828, 340.0, 56.0, 31.0 ],
-					"text" : "metro @active 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-21",
-					"linecount" : 6,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 883.944444444444571, 346.0, 140.0, 74.0 ],
-					"text" : "This is so user never prompted to save changes to this patch on closing.  closebang unfortunately doesn't trigger the clean message in time"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-20",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 827.777777777777828, 377.0, 32.0, 20.0 ],
-					"text" : "clean"
 				}
 
 			}
@@ -124,7 +298,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 18.0, 707.0, 18.0 ],
+					"patching_rect" : [ 218.0, 16.0, 707.0, 18.0 ],
 					"text" : "args: passed to abstractions as paths to their content, e.g. /CNMAT-Pedagogy/0_Max passed as CNMAT-Pedagogy and 0_Max...see instantiate_ abstractions",
 					"textcolor" : [ 0.341176470588235, 0.188235294117647, 0.937254901960784, 1.0 ]
 				}
@@ -179,21 +353,6 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontface" : 0,
-									"fontsize" : 12.0,
-									"id" : "obj-6",
-									"linecount" : 7,
-									"maxclass" : "o.expr.codebox",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "FullPacket", "FullPacket" ],
-									"patching_rect" : [ 707.0, 5.0, 1004.0, 114.0 ],
-									"text" : "/abstraction_name = /names./package + \"_courses\",                       # dynamically create abstraction name, e.g. CNMAT-Pedagogy_courses\n\n/scripting_name = \"courses\",                                            # not used for anything except thispatcher message arg requirement\n/offsetX        = 5  * ( /folder_1st_order/num + 1 ),\n/offsetY        = 25 * ( /folder_1st_order/num + 1 ),\n/argument1      = /names./package,\n/instantiate    = [ \"script\", \"newdefault\", /scripting_name, /offsetX, /offsetY, /abstraction_name, /argument1 ]"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-5",
@@ -265,7 +424,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 40.0, 131.0, 1004.0, 114.0 ],
-									"text" : "/abstraction_name = /names./package + \"_courses\",                       # dynamically create abstraction name, e.g. CNMAT-Pedagogy_courses\n\n/scripting_name = \"courses\",                                            # not used for anything except thispatcher message arg requirement\n/offsetX        = 0,\n/offsetY        = 0,\n/argument1      = /names./package,\n/instantiate    = [ \"script\", \"newdefault\", /scripting_name, /offsetX, /offsetY, /abstraction_name, /argument1 ]"
+									"text" : "/abstraction_name = /names./package + \"_courses\",                       # dynamically create abstraction name, e.g. CNMAT-Pedagogy_courses\n\n/scripting_name = \"courses\",                                            # not used for anything except thispatcher message arg requirement\n/offsetX        = 0,\n/offsetY        = 0,\n/argument1      = /names./package,\n/instantiate    = [ \"script\", \"hidden\", \"newdefault\", /scripting_name, /offsetX, /offsetY, /abstraction_name, /argument1 ]"
 								}
 
 							}
@@ -347,7 +506,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 770.777777777777828, 301.0, 113.0, 20.0 ],
+					"patching_rect" : [ 656.777777777777828, 299.0, 246.888888888888914, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -368,7 +527,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 763.666666666666742, 97.0, 70.333333333333258, 40.0 ]
+					"patching_rect" : [ 794.583333333333485, 82.0, 79.333333333333258, 46.0 ]
 				}
 
 			}
@@ -381,7 +540,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 626.0, 75.0, 148.666666666666742, 29.0 ],
+					"patching_rect" : [ 651.333333333333258, 69.0, 148.666666666666742, 29.0 ],
 					"text" : "reload CNMAT-Pedagogy_config.json"
 				}
 
@@ -395,7 +554,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 58.333333333333371, 505.0, 958.666666666666629, 163.0 ],
+					"patching_rect" : [ 55.166666666666629, 510.0, 958.666666666666629, 163.0 ],
 					"text" : "Everything gets built off of the folder and .json structure in misc >> content >> tree, but is also dependent on the patchers >> system folder (including the config folder and CNMAT-Pedagogy_config.json)\n\nHierarchical terminology\n   In the tree folder:\n     - 1st-order folders are turned into the tabs at the top of _system2.maxpat e.g. Max, MSP, etc\n     - 2nd-order folders are turned into the buttons on the tab object on _system3.maxpat e.g. Delays, poly~, etc\n     - 3rd-order folders are turned into the tabs at the top of the _system4.maxpat, e.g. poly~ basics, poly~ advanced, poly~ cool stuff, etc. \n\n     - The presence of a content.json file indicates to the system its time to build a _system3.maxpat, which hosts one or more _system4.maxpat which contains actual learning patches.  \n     - content.json can appear in 2nd-order or 3rd-order folders.   \n\n     - _system3.maxpat detects where the content.json are and then instantiates _system4.maxpat's\n     - If content.json is in a 2nd-order folder (e.g. Delays), then there is only one tab to build at the top of the _system3.maxpat (Delays)\n     - If tcontent.json is in a 3rd-order folder (e.g. poly~), then there are multiple tabs to build at the top of the _system3 (poly~ basics, poly~ advanced, etc)",
 					"textcolor" : [ 0.341176470588235, 0.188235294117647, 0.937254901960784, 1.0 ]
 				}
@@ -410,7 +569,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 654.277777777777828, 271.0, 94.0, 29.0 ],
+					"patching_rect" : [ 540.277777777777828, 269.0, 94.0, 29.0 ],
 					"text" : "i.e. a tab along the top that I host"
 				}
 
@@ -892,7 +1051,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 864.666666666666742, 217.0, 75.0, 20.0 ],
+					"patching_rect" : [ 884.666666666666742, 215.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1067,7 +1226,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 518.5, 271.0, 32.0, 20.0 ],
+					"patching_rect" : [ 404.5, 269.0, 32.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1088,7 +1247,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 829.0, 139.0, 18.0, 18.0 ]
+					"patching_rect" : [ 874.0, 125.0, 18.0, 18.0 ]
 				}
 
 			}
@@ -1103,7 +1262,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 947.5, 90.0, 69.5, 136.0 ],
+					"patching_rect" : [ 967.5, 88.0, 69.5, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -1123,7 +1282,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 794.916666666666742, 50.0, 225.0, 40.0 ],
+					"patching_rect" : [ 846.916666666666742, 45.0, 191.0, 40.0 ],
 					"text" : "if ever change the name and location of CNMAT-Pedagogy_config.json, then this must change accordingly inside here"
 				}
 
@@ -1137,7 +1296,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 864.666666666666742, 125.0, 111.5, 40.0 ],
+					"patching_rect" : [ 900.666666666666742, 121.0, 111.5, 40.0 ],
 					"text" : "pathway to root Packages folder, e.g. /~/CNMAT-Pedagogy/"
 				}
 
@@ -1151,7 +1310,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 393.0, 270.0, 67.0, 20.0 ],
+					"patching_rect" : [ 296.0, 240.0, 67.0, 20.0 ],
 					"text" : "showontab 0"
 				}
 
@@ -1165,7 +1324,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 519.333333333333371, 300.0, 38.0, 20.0 ],
+					"patching_rect" : [ 405.333333333333371, 298.0, 38.0, 20.0 ],
 					"text" : "title $1"
 				}
 
@@ -1179,7 +1338,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "bang", "bang" ],
-					"patching_rect" : [ 393.0, 135.0, 396.666666666666742, 20.0 ],
+					"patching_rect" : [ 279.0, 133.0, 396.777777777777828, 20.0 ],
 					"text" : "b 4"
 				}
 
@@ -1193,7 +1352,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 393.0, 71.0, 30.0, 20.0 ],
+					"patching_rect" : [ 279.0, 69.0, 30.0, 20.0 ],
 					"text" : "del 2"
 				}
 
@@ -1207,7 +1366,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 393.0, 97.0, 48.0, 20.0 ],
+					"patching_rect" : [ 279.0, 95.0, 48.0, 20.0 ],
 					"text" : "deferlow"
 				}
 
@@ -1221,7 +1380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 393.0, 45.0, 52.0, 20.0 ],
+					"patching_rect" : [ 279.0, 43.0, 52.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1235,7 +1394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 864.666666666666742, 170.0, 73.0, 20.0 ],
+					"patching_rect" : [ 884.666666666666742, 168.0, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "pathpop.js",
 						"parameter_enable" : 0
@@ -1265,12 +1424,12 @@
 					"fontface" : 1,
 					"hidden" : 1,
 					"id" : "obj-12",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.916666666666742, 466.0, 623.0, 33.0 ],
-					"text" : "I host everything.\nI instantiate multiple instances of _system2.maxpat (the tabs), which are the first-order folder levels"
+					"patching_rect" : [ 396.916666666666742, 466.0, 623.0, 47.0 ],
+					"text" : "I host everything.\nI instantiate multiple instances of _system2.maxpat (the tabs), which are the first-order folder levels\nOnly save me when those _system2's are deleted (the stack of them on the lefthand side)"
 				}
 
 			}
@@ -1283,7 +1442,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 393.0, 378.0, 59.0, 20.0 ],
+					"patching_rect" : [ 405.333333333333371, 400.0, 59.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -1340,13 +1499,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
-									"linecount" : 2,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 223.0, 401.0, 165.0, 35.0 ],
-									"text" : "0_Max 1_MSP 2_o. 3_Synthesis 4_Music-Topics"
+									"patching_rect" : [ 223.0, 401.0, 165.0, 62.0 ],
+									"text" : "0_Max 1_MSP 2_odot 3_Time 4_Pitch 5_Synthesis 6_Composing-with-Max 7_Demos-and-Examples"
 								}
 
 							}
@@ -1569,7 +1728,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 644.777777777777828, 300.0, 113.0, 20.0 ],
+					"patching_rect" : [ 530.777777777777828, 298.0, 113.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1590,8 +1749,134 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 644.777777777777828, 331.0, 113.0, 20.0 ],
+					"patching_rect" : [ 530.777777777777828, 329.0, 113.0, 20.0 ],
 					"text" : "instantiate_system2s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-3",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 100.0, 62.0 ],
+					"text" : "CNMAT-Pedagogy_courses CNMAT-Pedagogy",
+					"varname" : "courses"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-6",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.0, 25.0, 100.0, 62.0 ],
+					"text" : "CNMAT-Pedagogy_system2 CNMAT-Pedagogy 0_Max",
+					"varname" : "system2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-9",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.0, 50.0, 100.0, 62.0 ],
+					"text" : "CNMAT-Pedagogy_system2 CNMAT-Pedagogy 1_MSP",
+					"varname" : "system2[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-11",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 75.0, 100.0, 62.0 ],
+					"text" : "CNMAT-Pedagogy_system2 CNMAT-Pedagogy 2_odot",
+					"varname" : "system2[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-14",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 20.0, 100.0, 100.0, 62.0 ],
+					"text" : "CNMAT-Pedagogy_system2 CNMAT-Pedagogy 3_Time",
+					"varname" : "system2[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-16",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 125.0, 100.0, 62.0 ],
+					"text" : "CNMAT-Pedagogy_system2 CNMAT-Pedagogy 4_Pitch",
+					"varname" : "system2[4]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-19",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 150.0, 100.0, 62.0 ],
+					"text" : "CNMAT-Pedagogy_system2 CNMAT-Pedagogy 5_Synthesis",
+					"varname" : "system2[5]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-20",
+					"linecount" : 6,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 35.0, 175.0, 100.0, 89.0 ],
+					"text" : "CNMAT-Pedagogy_system2 CNMAT-Pedagogy 6_Composing-with-Max",
+					"varname" : "system2[6]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-21",
+					"linecount" : 6,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 40.0, 200.0, 100.0, 89.0 ],
+					"text" : "CNMAT-Pedagogy_system2 CNMAT-Pedagogy 7_Demos-and-Examples",
+					"varname" : "system2[7]"
 				}
 
 			}
@@ -1617,24 +1902,8 @@
 					"color" : [ 0.835976362228394, 0.841413617134094, 0.841309070587158, 1.0 ],
 					"destination" : [ "obj-31", 1 ],
 					"hidden" : 1,
-					"midpoints" : [ 874.277777777777828, 333.0, 765.0, 333.0, 765.0, 293.0, 748.277777777777828, 293.0 ],
+					"midpoints" : [ 894.166666666666742, 331.0, 651.0, 331.0, 651.0, 291.0, 634.277777777777828, 291.0 ],
 					"source" : [ "obj-18", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -1650,6 +1919,16 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"hidden" : 1,
+					"order" : 1,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"hidden" : 1,
+					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -1664,9 +1943,25 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-27", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -1688,9 +1983,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"hidden" : 1,
-					"source" : [ "obj-27", 0 ]
+					"source" : [ "obj-30", 1 ]
 				}
 
 			}
@@ -1707,6 +2010,14 @@
 					"destination" : [ "obj-8", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -1770,10 +2081,108 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "CNMAT-Pedagogy_banner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/system",
+				"patcherrelativepath" : "../patchers/system",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CNMAT-Pedagogy_courses.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/content/Courses",
+				"patcherrelativepath" : "../patchers/content/Courses",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "CNMAT-Pedagogy_install-instruct.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/system",
 				"patcherrelativepath" : "../patchers/system",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CNMAT-Pedagogy_link.maxpat",
+				"bootpath" : "~/Documents/max_enabled/pedagogy/__158a_me/158a_2024_Spring/__FinalProjects/connor_bernard_final/patchers",
+				"patcherrelativepath" : "../../../../max_enabled/pedagogy/__158a_me/158a_2024_Spring/__FinalProjects/connor_bernard_final/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CNMAT-Pedagogy_system2.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/system",
+				"patcherrelativepath" : "../patchers/system",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CNMAT_logo.png",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Depot-2_beta/media/Images",
+				"patcherrelativepath" : "../../CNMAT-Depot-2_beta/media/Images",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_MZED_Intro_Course.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/content/Courses/Zbyszynski-Michael",
+				"patcherrelativepath" : "../patchers/content/Courses/Zbyszynski-Michael",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_Music29_Lab_Tools.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/content/Courses/Music29",
+				"patcherrelativepath" : "../patchers/content/Courses/Music29",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Depot-2_beta/patchers/Z_depot_support",
+				"patcherrelativepath" : "../../CNMAT-Depot-2_beta/patchers/Z_depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "banner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Depot-2_beta/patchers/Z_depot_support",
+				"patcherrelativepath" : "../../CNMAT-Depot-2_beta/patchers/Z_depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "blanton_course.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/content/Courses/M158A/2021-Fall__Blanton-Andrew",
+				"patcherrelativepath" : "../patchers/content/Courses/M158A/2021-Fall__Blanton-Andrew",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "characterAdd.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/system/system_abstraction_dependencies",
+				"patcherrelativepath" : "../patchers/system/system_abstraction_dependencies",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "characterRemove.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/system/system_abstraction_dependencies",
+				"patcherrelativepath" : "../patchers/system/system_abstraction_dependencies",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Depot-2_beta/media/Images",
+				"patcherrelativepath" : "../../CNMAT-Depot-2_beta/media/Images",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "deleteSystem2s.js",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/javascript/CNMAT-Pedagogy_system",
+				"patcherrelativepath" : "../javascript/CNMAT-Pedagogy_system",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1791,6 +2200,35 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "instantiate_system3s.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/system/system_abstraction_dependencies",
+				"patcherrelativepath" : "../patchers/system/system_abstraction_dependencies",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kulpa_course.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/content/Courses/M158A/2024-Spring__Kulpa-Jon",
+				"patcherrelativepath" : "../patchers/content/Courses/M158A/2024-Spring__Kulpa-Jon",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "m29_filelookup.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/content/Courses/Music29/Misc Support",
+				"patcherrelativepath" : "../patchers/content/Courses/Music29/Misc Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.cond.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "o.expr.codebox.mxo",
 				"type" : "iLaX"
 			}
@@ -1803,6 +2241,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "o.select.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "o.union.mxo",
 				"type" : "iLaX"
 			}
@@ -1812,9 +2254,23 @@
 			}
 , 			{
 				"name" : "pathpop.js",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Depot-2.0_beta/javascript",
-				"patcherrelativepath" : "../../CNMAT-Depot-2.0_beta/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Depot-2_beta/javascript",
+				"patcherrelativepath" : "../../CNMAT-Depot-2_beta/javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rama-gottfried_course.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Pedagogy/patchers/content/Courses/Music-and-Computing_Gottfried-Rama",
+				"patcherrelativepath" : "../patchers/content/Courses/Music-and-Computing_Gottfried-Rama",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-Depot-2_beta/patchers/Z_depot_support",
+				"patcherrelativepath" : "../../CNMAT-Depot-2_beta/patchers/Z_depot_support",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

@@ -1,0 +1,22 @@
+{
+    "intro": {
+        "0": {
+            "label": "some terms",
+            "file": "timbre_effect-of-freqs_terms.maxpat"
+        }
+    },
+    "harmonicity formula (Cella)": {
+        "0": {
+            "label": "harmonicity - formula",
+            "file": "timbre_harmonicity-formula.maxpat"
+        },
+        "1": {
+            "label": "...in odot",
+            "file": "timbre_harmonicity-in-odot.maxpat"
+        },
+        "2": {
+            "label": "...in Max",
+            "file": "timbre_harmonicity-in-max.maxpat"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "intro": {
+        "0": {
+            "label": "collection of 1/2-steps",
+            "file": "musical-scale_collection-halfsteps.maxpat"
+        },
+        "1": {
+            "label": "GUIs only provide the index",
+            "file": "musical-scale_GUIs-as-index.maxpat"
+        }
+    },
+    "objects": {
+        "0": {
+            "label": "objects: index (steps) to 1/2steps",
+            "file": "musical-scale_objects-hello.maxpat"
+        },
+        "1": {
+            "label": "steps-to-scale intro",
+            "file": "steps-to-scale.maxhelp"
+        },
+        "2": {
+            "label": "steps-to-scale demo",
+            "file": "about_steps-to-scale.maxpat"
+        },
+        "3": {
+            "label": "steps-to-scale~ intro",
+            "file": "steps-to-scale~.maxhelp"
+        },
+        "4": {
+            "label": "steps-to-scale~ demo",
+            "file": "about_steps-to-scale~.maxpat"
+        },
+        "5": {
+            "label": "notation",
+            "file": "mzed-scales.maxpat"
+        }
+    }
+}
