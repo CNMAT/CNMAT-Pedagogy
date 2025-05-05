@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -60,8 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 47.0, 45.0, 382.0, 20.0 ],
-					"presentation_linecount" : 2,
-					"text" : "In a message box, commas send messages sequentially, or iteratively."
+					"text" : "In a message box, commas send messages sequentially left to right."
 				}
 
 			}
@@ -89,18 +88,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 93.0, 155.0, 44.0, 22.0 ],
 					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 10.0,
-					"id" : "obj-12",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 506.0, 210.0, 89.0, 18.0 ],
-					"text" : "Edmund Campion"
 				}
 
 			}

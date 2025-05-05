@@ -37,6 +37,14 @@
         "2": {
             "label": "commas in message boxes",
             "file": "introData_commas-in-message.maxpat"
+        },
+        "3": {
+            "label": "building complex messages with sprintf",
+            "file": "about_sprintf.maxpat"
+        },
+        "4": {
+            "label": "many_messages_to_different_destinations",
+            "file": "many_messages_to_different_destinations.maxpat"
         }
     }
 }
